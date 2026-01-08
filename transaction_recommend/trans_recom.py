@@ -1,9 +1,26 @@
 import json
+import re
 
 # load the data safely
 def load_data(file_path):
     with open(file_path, 'r') as file:
-        return json.load(file)
+        content = file.read()
+        
+        match = re.search(r'\[.*\]', content, re.DOTALL)
+        
+        if match:
+            json_string = match.group(0)
+            
+            data = json.loads(json_string)
+            
+            if "Transactions" in file_path or "transactions" in file_path:
+                return {"transactions": data}
+            return {"cards": data}
+        else:
+            match_obj = re.search(r'\{.*\}', content, re.DOTALL)
+            if match_obj:
+                return json.loads(match_obj.group(0))
+            raise ValueError(f"Could not find a JSON structure in {file_path}")
     
 # loading both datasets
 transactions_data = load_data('data/sampleTransactions.js')
@@ -15,8 +32,6 @@ all_cards = cards_data['cards']
 # example: Print the first transaction's merchant
 # print(f"First Merchant: {all_transactions[0]['merchant']}")
 # print(f"First Card Type: {all_cards[0]['rewards']['categories']}")
-
-import json
 
 def get_best_card(target_category, amount, cards_data):
     rankings = []

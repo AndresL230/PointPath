@@ -19,17 +19,24 @@ def load_data(file_path):
 transactions_data = load_data('backend/data/users/user01.json')
 cards_data = load_data('backend/data/cards.json')
 
-all_transactions = transactions_data['transactions']
-all_cards = cards_data['cards']
+# all_transactions = transactions_data['transactions']
+# all_cards = cards_data['cards']
 
 # example: Print the first transaction's merchant
 # print(f"First Merchant: {all_transactions[0]['merchant']}")
 # print(f"First Card Type: {all_cards[0]['rewards']['categories']}")
 
+owned_card_ids = [c['card_id'] for c in transactions_data['cards']]
+
+user_owned_cards = [
+    card for card in cards_data['cards'] 
+    if card['id'] in owned_card_ids
+]
+
 def get_best_card(target_category, amount, cards_data):
     rankings = []
     
-    for card in all_cards:
+    for card in cards_data:
         card_name = card['name']
         base_rate = card['rewards']['base_rate']
 
@@ -57,9 +64,10 @@ def get_best_card(target_category, amount, cards_data):
 
 
 total_points = 0
+all_transactions = transactions_data['transactions']
 
 for first_txn in all_transactions:
-    recommendations = get_best_card(first_txn['category'], first_txn['amount'], all_cards)
+    recommendations = get_best_card(first_txn['category'], first_txn['amount'], user_owned_cards)
 
     total_points += recommendations[0]['points_earned']
 
@@ -67,5 +75,3 @@ for first_txn in all_transactions:
     print(f"Recommended Card: {recommendations[0]['card']} at {recommendations[0]['rate']}x \n")
 
 print(f"\nTotal Points Earned across all transactions: {round(total_points, 2)}")
-
-#

@@ -67,3 +67,5 @@ for first_txn in all_transactions:
     print(f"Recommended Card: {recommendations[0]['card']} at {recommendations[0]['rate']}x \n")
 
 print(f"\nTotal Points Earned across all transactions: {round(total_points, 2)}")
+
+#

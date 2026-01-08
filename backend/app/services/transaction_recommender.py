@@ -4,39 +4,39 @@ import re
 # load the data safely
 def load_data(file_path):
     with open(file_path, 'r') as file:
-        content = file.read().strip()
+        content = file.read()
         
-        try:
-            return json.loads(content)
-        except json.JSONDecodeError:
-            # 2. fallback if .js file again
-            match = re.search(r'\[.*\]|\{.*\}', content, re.DOTALL)
-            if match:
-                return json.loads(match.group(0))
-            raise ValueError(f"Could not parse JSON in {file_path}")
+        match = re.search(r'\[.*\]', content, re.DOTALL)
+        
+        if match:
+            json_string = match.group(0)
+            
+            data = json.loads(json_string)
+            
+            if "Transactions" in file_path or "transactions" in file_path:
+                return {"transactions": data}
+            return {"cards": data}
+        else:
+            match_obj = re.search(r'\{.*\}', content, re.DOTALL)
+            if match_obj:
+                return json.loads(match_obj.group(0))
+            raise ValueError(f"Could not find a JSON structure in {file_path}")
     
 # loading both datasets
-transactions_data = load_data('backend/data/users/user01.json')
-cards_data = load_data('backend/data/cards.json')
+transactions_data = load_data('data/sampleTransactions.js')
+cards_data = load_data('data/sampleCards.js')
 
-# all_transactions = transactions_data['transactions']
-# all_cards = cards_data['cards']
+all_transactions = transactions_data['transactions']
+all_cards = cards_data['cards']
 
 # example: Print the first transaction's merchant
 # print(f"First Merchant: {all_transactions[0]['merchant']}")
 # print(f"First Card Type: {all_cards[0]['rewards']['categories']}")
 
-owned_card_ids = [c['card_id'] for c in transactions_data['cards']]
-
-user_owned_cards = [
-    card for card in cards_data['cards'] 
-    if card['id'] in owned_card_ids
-]
-
 def get_best_card(target_category, amount, cards_data):
     rankings = []
     
-    for card in cards_data:
+    for card in all_cards:
         card_name = card['name']
         base_rate = card['rewards']['base_rate']
 
@@ -62,12 +62,10 @@ def get_best_card(target_category, amount, cards_data):
     # Sort by points earned descending
     return sorted(rankings, key=lambda x: x['points_earned'], reverse=True)
 
-
 total_points = 0
-all_transactions = transactions_data['transactions']
 
 for first_txn in all_transactions:
-    recommendations = get_best_card(first_txn['category'], first_txn['amount'], user_owned_cards)
+    recommendations = get_best_card(first_txn['category'], first_txn['amount'], all_cards)
 
     total_points += recommendations[0]['points_earned']
 

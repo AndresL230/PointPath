@@ -30,7 +30,7 @@ export default function RecCard() {
 
     return (
         <main className="bg-custom-blue min-h-screen mx-17 mt-8 mb-10">
-            <h1 className="text-xl">Based on your transaction history, here are some card recommendations</h1>
+            <h1 className="text-xl">Explore cards with strong rewards for your top spending categories</h1>
             
             <section>
                 <div className="mt-8 bg-white px-6 py-8 rounded-lg">
@@ -58,7 +58,9 @@ export default function RecCard() {
 
             <section>
                 <div className="mt-6 bg-white px-6 py-8 rounded-lg">
-                    <h2 className="text-black text-xl mb-4">Recommended Cards</h2>
+                    <h2 className="text-black text-xl">Recommended Cards</h2>
+                    <p className="text-gray-600 mb-6">We show cards that are popular for certain spending patterns.
+                       Approval depends on the issuer and your credit profile.</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {recommendedCards}
                     </div>

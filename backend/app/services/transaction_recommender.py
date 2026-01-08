@@ -4,20 +4,27 @@ import re
 # load the data safely
 def load_data(file_path):
     with open(file_path, 'r') as file:
-        content = file.read().strip()
+        content = file.read()
         
-        try:
-            return json.loads(content)
-        except json.JSONDecodeError:
-            # 2. fallback if .js file again
-            match = re.search(r'\[.*\]|\{.*\}', content, re.DOTALL)
-            if match:
-                return json.loads(match.group(0))
-            raise ValueError(f"Could not parse JSON in {file_path}")
+        match = re.search(r'\[.*\]', content, re.DOTALL)
+        
+        if match:
+            json_string = match.group(0)
+            
+            data = json.loads(json_string)
+            
+            if "Transactions" in file_path or "transactions" in file_path:
+                return {"transactions": data}
+            return {"cards": data}
+        else:
+            match_obj = re.search(r'\{.*\}', content, re.DOTALL)
+            if match_obj:
+                return json.loads(match_obj.group(0))
+            raise ValueError(f"Could not find a JSON structure in {file_path}")
     
 # loading both datasets
-transactions_data = load_data('backend/data/users/user01.json')
-cards_data = load_data('backend/data/cards.json')
+transactions_data = load_data('data/sampleTransactions.js')
+cards_data = load_data('data/sampleCards.js')
 
 all_transactions = transactions_data['transactions']
 all_cards = cards_data['cards']
@@ -55,7 +62,6 @@ def get_best_card(target_category, amount, cards_data):
     # Sort by points earned descending
     return sorted(rankings, key=lambda x: x['points_earned'], reverse=True)
 
-
 total_points = 0
 
 for first_txn in all_transactions:
@@ -67,5 +73,3 @@ for first_txn in all_transactions:
     print(f"Recommended Card: {recommendations[0]['card']} at {recommendations[0]['rate']}x \n")
 
 print(f"\nTotal Points Earned across all transactions: {round(total_points, 2)}")
-
-#

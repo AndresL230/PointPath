@@ -1,0 +1,95 @@
+{
+  "user_id": "user01",
+  "cards": [
+    {
+      "card_id": "amex-gold",
+      "date_opened": "2024-06-15"
+    },
+    {
+      "card_id": "chase-sapphire-preferred",
+      "date_opened": "2024-09-01"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_001",
+      "date": "2025-01-07",
+      "amount": 47.82,
+      "category": "dining",
+      "merchant": "Chipotle",
+      "card_id": "amex-gold"
+    },
+    {
+      "id": "txn_002",
+      "date": "2025-01-06",
+      "amount": 156.23,
+      "category": "groceries",
+      "merchant": "Whole Foods",
+      "card_id": "amex-gold"
+    },
+    {
+      "id": "txn_003",
+      "date": "2025-01-05",
+      "amount": 42.50,
+      "category": "gas",
+      "merchant": "Shell",
+      "card_id": "chase-sapphire-preferred"
+    },
+    {
+      "id": "txn_004",
+      "date": "2025-01-04",
+      "amount": 15.99,
+      "category": "streaming",
+      "merchant": "Netflix",
+      "card_id": "chase-sapphire-preferred"
+    },
+    {
+      "id": "txn_005",
+      "date": "2025-01-03",
+      "amount": 234.00,
+      "category": "flights",
+      "merchant": "Delta Airlines",
+      "card_id": "amex-gold"
+    },
+    {
+      "id": "txn_006",
+      "date": "2025-01-02",
+      "amount": 28.45,
+      "category": "transit",
+      "merchant": "Uber",
+      "card_id": "chase-sapphire-preferred"
+    },
+    {
+      "id": "txn_007",
+      "date": "2025-01-01",
+      "amount": 89.99,
+      "category": "shopping",
+      "merchant": "Amazon",
+      "card_id": "chase-sapphire-preferred"
+    },
+    {
+      "id": "txn_008",
+      "date": "2024-12-30",
+      "amount": 62.18,
+      "category": "dining",
+      "merchant": "Olive Garden",
+      "card_id": "amex-gold"
+    },
+    {
+      "id": "txn_009",
+      "date": "2024-12-28",
+      "amount": 175.00,
+      "category": "hotels",
+      "merchant": "Marriott",
+      "card_id": "amex-gold"
+    },
+    {
+      "id": "txn_010",
+      "date": "2024-12-27",
+      "amount": 9.99,
+      "category": "streaming",
+      "merchant": "Spotify",
+      "card_id": "chase-sapphire-preferred"
+    }
+  ]
+}

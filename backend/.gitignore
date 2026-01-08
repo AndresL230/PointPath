@@ -28,6 +28,3 @@ Thumbs.db
 
 # FastAPI/Uvicorn
 *.log
-
-# Data files (optional - remove if you want to commit user data)
-data/users/*.json

@@ -26,6 +26,7 @@ def load_data(file_path):
 transactions_data = load_data('data/sampleTransactions.js')
 cards_data = load_data('data/sampleCards.js')
 
+# extracting lists
 all_transactions = transactions_data['transactions']
 all_cards = cards_data['cards']
 
@@ -73,3 +74,4 @@ for first_txn in all_transactions:
     print(f"Recommended Card: {recommendations[0]['card']} at {recommendations[0]['rate']}x \n")
 
 print(f"\nTotal Points Earned across all transactions: {round(total_points, 2)}")
+

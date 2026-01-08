@@ -3,7 +3,37 @@ import json
 from datetime import datetime
 import math
 
-data = pd.read_csv('../../data/transactionsTest3.csv').to_dict(orient='records')
+def load_user_transactions(user_id):
+    # Load user transactions from JSON and convert to CSV format
+    user_file = f'../../data/users/{user_id}.json'
+    with open(user_file, 'r') as f:
+        user_data = json.load(f)
+
+    # Category mapping from JSON to CSV format
+    category_map = {
+        'dining': 'restaurant',
+        'groceries': 'grocery',
+        'gas': 'transportation',
+        'transit': 'transportation',
+        'flights': 'travel',
+        'hotels': 'travel'
+    }
+
+    # Convert transactions to CSV format
+    transactions = []
+    for txn in user_data['transactions']:
+        category = category_map.get(txn['category'], txn['category'])
+        transactions.append({
+            'Date': txn['date'],
+            'Merchant': txn['merchant'],
+            'Category': category,
+            'Amount': txn['amount'],
+            'Card_Used': txn['card_id']
+        })
+
+    return transactions
+
+data = load_user_transactions('user01')
 # cardData = pd.read_csv('./creditCardList.csv').to_dict(orient='records') 
 cardDataJSON = json.load(open('../../data/cards.json')) 
 

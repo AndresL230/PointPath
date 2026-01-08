@@ -1,0 +1,1501 @@
+Date,Merchant,Category,Amount
+2023-01-01,Kroger,grocery,166.46
+2023-01-02,Radisson,hotel,335.93
+2023-01-02,Taco Bell,restaurant,120.82
+2023-01-02,Chipotle,restaurant,39.92
+2023-01-03,Red Lobster,restaurant,10.4
+2023-01-03,Aldi,grocery,64.19
+2023-01-04,Walmart,grocery,73.93
+2023-01-04,Comfort Inn,hotel,173.65
+2023-01-04,Taco Bell,restaurant,45.97
+2023-01-04,Starbucks,restaurant,23.57
+2023-01-05,Starbucks,restaurant,31.26
+2023-01-05,Whole Foods,grocery,244.78
+2023-01-08,Safeway,grocery,102.12
+2023-01-08,Lyft,transportation,72.5
+2023-01-08,Costco,grocery,171.99
+2023-01-08,76 Gas,transportation,22.96
+2023-01-08,Marriott,hotel,208.44
+2023-01-08,Radisson,hotel,99.78
+2023-01-09,McDonald's,restaurant,15.73
+2023-01-09,Uber,transportation,24.86
+2023-01-09,Aldi,grocery,34.59
+2023-01-09,The Cheesecake Factory,restaurant,78.2
+2023-01-09,Costco,grocery,52.49
+2023-01-10,Subway,restaurant,49.38
+2023-01-10,Best Western,hotel,300.85
+2023-01-11,Aldi,grocery,120.49
+2023-01-11,Marriott,hotel,259.45
+2023-01-11,Amtrak,transportation,5.13
+2023-01-11,Aldi,grocery,194.68
+2023-01-12,Olive Garden,restaurant,96.94
+2023-01-12,Kroger,grocery,236.02
+2023-01-12,Olive Garden,restaurant,49.95
+2023-01-13,Holiday Inn,hotel,136.14
+2023-01-14,Hyatt,hotel,133.79
+2023-01-15,Olive Garden,restaurant,130.48
+2023-01-15,Target,grocery,148.37
+2023-01-15,Trader Joes,grocery,162.95
+2023-01-16,Best Western,hotel,151.82
+2023-01-16,Red Lobster,restaurant,84.46
+2023-01-16,76 Gas,transportation,31.23
+2023-01-16,Hilton,hotel,337.66
+2023-01-16,Whole Foods,grocery,149.48
+2023-01-18,Safeway,grocery,209.74
+2023-01-18,Red Lobster,restaurant,34.09
+2023-01-19,Radisson,hotel,229.55
+2023-01-19,Sheraton,hotel,337.48
+2023-01-19,Taco Bell,restaurant,140.19
+2023-01-20,The Cheesecake Factory,restaurant,136.77
+2023-01-21,Target,grocery,175.15
+2023-01-22,Metro Transit,transportation,38.66
+2023-01-23,Whole Foods,grocery,120.47
+2023-01-25,Lyft,transportation,56.16
+2023-01-25,Amtrak,transportation,58.42
+2023-01-26,Whole Foods,grocery,94.95
+2023-01-26,Whole Foods,grocery,136.87
+2023-01-26,McDonald's,restaurant,49.92
+2023-01-26,Metro Transit,transportation,42.33
+2023-01-27,Holiday Inn,hotel,291.99
+2023-01-28,Holiday Inn,hotel,254.89
+2023-01-28,Safeway,grocery,19.24
+2023-01-29,Safeway,grocery,67.42
+2023-01-29,Panera Bread,restaurant,57.26
+2023-01-30,The Cheesecake Factory,restaurant,79.02
+2023-01-30,Subway,restaurant,63.31
+2023-01-31,Amtrak,transportation,8.6
+2023-01-31,Chevron,transportation,51.65
+2023-01-31,Lyft,transportation,32.29
+2023-01-31,Starbucks,restaurant,43.85
+2023-02-01,BP Gas,transportation,70.85
+2023-02-01,Metro Transit,transportation,39.24
+2023-02-02,Target,grocery,192.71
+2023-02-02,Red Lobster,restaurant,147.81
+2023-02-03,Walmart,grocery,146.12
+2023-02-03,The Cheesecake Factory,restaurant,143.35
+2023-02-04,Aldi,grocery,19.38
+2023-02-04,Marriott,hotel,187.22
+2023-02-05,Panera Bread,restaurant,105.54
+2023-02-06,Best Western,hotel,234.58
+2023-02-06,Costco,grocery,171.04
+2023-02-07,Walmart,grocery,64.17
+2023-02-07,Hyatt,hotel,264.77
+2023-02-08,Kroger,grocery,44.92
+2023-02-08,Metro Transit,transportation,21.04
+2023-02-09,Whole Foods,grocery,126.85
+2023-02-09,Best Western,hotel,145.88
+2023-02-09,Marriott,hotel,348.58
+2023-02-10,Chevron,transportation,81.96
+2023-02-10,Starbucks,restaurant,118.54
+2023-02-10,Uber,transportation,73.67
+2023-02-10,Whole Foods,grocery,244.28
+2023-02-11,Subway,restaurant,141.41
+2023-02-11,Chevron,transportation,73.86
+2023-02-12,Target,grocery,117.44
+2023-02-13,Radisson,hotel,155.88
+2023-02-13,Metro Transit,transportation,66.08
+2023-02-13,Chevron,transportation,52.84
+2023-02-13,Panera Bread,restaurant,103.09
+2023-02-13,Amtrak,transportation,80.77
+2023-02-13,Kroger,grocery,101.84
+2023-02-13,Radisson,hotel,146.61
+2023-02-14,Best Western,hotel,244.49
+2023-02-14,Radisson,hotel,204.34
+2023-02-15,Costco,grocery,155.49
+2023-02-15,Starbucks,restaurant,11.2
+2023-02-16,Lyft,transportation,51.03
+2023-02-16,76 Gas,transportation,67.55
+2023-02-16,Aldi,grocery,112.11
+2023-02-17,Comfort Inn,hotel,135.65
+2023-02-17,Trader Joes,grocery,115.05
+2023-02-17,Costco,grocery,26.36
+2023-02-18,Walmart,grocery,115.31
+2023-02-18,Kroger,grocery,121.65
+2023-02-18,Kroger,grocery,109.64
+2023-02-20,Lyft,transportation,64.87
+2023-02-20,Chick-fil-A,restaurant,58.56
+2023-02-21,Lyft,transportation,23.09
+2023-02-21,Lyft,transportation,32.53
+2023-02-21,Marriott,hotel,286.19
+2023-02-21,Holiday Inn,hotel,184.31
+2023-02-22,Chick-fil-A,restaurant,132.83
+2023-02-22,Chick-fil-A,restaurant,108.74
+2023-02-22,76 Gas,transportation,61.58
+2023-02-22,Best Western,hotel,284.69
+2023-02-23,Amtrak,transportation,67.82
+2023-02-23,Target,grocery,135.57
+2023-02-24,Best Western,hotel,171.06
+2023-02-24,McDonald's,restaurant,111.92
+2023-02-24,Holiday Inn,hotel,118.65
+2023-02-25,Aldi,grocery,217.91
+2023-02-25,Radisson,hotel,285.51
+2023-02-26,Starbucks,restaurant,27.12
+2023-02-26,76 Gas,transportation,56.21
+2023-02-27,Sheraton,hotel,341.05
+2023-02-27,Walmart,grocery,20.8
+2023-02-28,76 Gas,transportation,23.73
+2023-03-01,Red Lobster,restaurant,124.31
+2023-03-01,Comfort Inn,hotel,103.43
+2023-03-02,Kroger,grocery,167.47
+2023-03-02,Starbucks,restaurant,38.29
+2023-03-02,The Cheesecake Factory,restaurant,24.42
+2023-03-02,Hilton,hotel,153.56
+2023-03-03,Red Lobster,restaurant,21.04
+2023-03-03,Kroger,grocery,159.19
+2023-03-04,Walmart,grocery,99.15
+2023-03-04,Comfort Inn,hotel,302.18
+2023-03-05,Amtrak,transportation,15.69
+2023-03-05,Chipotle,restaurant,104.27
+2023-03-07,BP Gas,transportation,57.56
+2023-03-07,Holiday Inn,hotel,103.86
+2023-03-08,Chick-fil-A,restaurant,112.47
+2023-03-08,Chipotle,restaurant,93.33
+2023-03-08,Red Lobster,restaurant,134.56
+2023-03-08,Best Western,hotel,311.22
+2023-03-09,Holiday Inn,hotel,332.63
+2023-03-09,The Cheesecake Factory,restaurant,51.18
+2023-03-09,Target,grocery,240.34
+2023-03-11,Kroger,grocery,78.75
+2023-03-11,Kroger,grocery,246.77
+2023-03-11,Subway,restaurant,108.87
+2023-03-11,Lyft,transportation,80.23
+2023-03-12,Sheraton,hotel,302.71
+2023-03-12,Target,grocery,197.11
+2023-03-13,76 Gas,transportation,16.0
+2023-03-13,Olive Garden,restaurant,73.24
+2023-03-13,Trader Joes,grocery,47.62
+2023-03-13,Amtrak,transportation,53.62
+2023-03-15,McDonald's,restaurant,25.84
+2023-03-15,Metro Transit,transportation,82.61
+2023-03-15,McDonald's,restaurant,28.03
+2023-03-16,Chick-fil-A,restaurant,78.49
+2023-03-16,Comfort Inn,hotel,146.95
+2023-03-17,Holiday Inn,hotel,191.31
+2023-03-18,Red Lobster,restaurant,83.1
+2023-03-18,Panera Bread,restaurant,95.43
+2023-03-18,Starbucks,restaurant,49.5
+2023-03-19,Marriott,hotel,212.9
+2023-03-19,76 Gas,transportation,66.94
+2023-03-20,Radisson,hotel,332.97
+2023-03-20,Amtrak,transportation,47.99
+2023-03-20,Olive Garden,restaurant,128.87
+2023-03-20,Olive Garden,restaurant,45.01
+2023-03-21,Safeway,grocery,82.84
+2023-03-21,Comfort Inn,hotel,150.82
+2023-03-21,McDonald's,restaurant,64.6
+2023-03-23,Hilton,hotel,328.94
+2023-03-23,Best Western,hotel,277.67
+2023-03-24,Costco,grocery,56.95
+2023-03-24,BP Gas,transportation,29.97
+2023-03-25,Uber,transportation,77.22
+2023-03-25,Chevron,transportation,6.97
+2023-03-25,Taco Bell,restaurant,30.27
+2023-03-25,Holiday Inn,hotel,131.46
+2023-03-26,Walmart,grocery,37.83
+2023-03-26,Marriott,hotel,186.75
+2023-03-27,Target,grocery,241.1
+2023-03-28,Whole Foods,grocery,111.36
+2023-03-28,Chick-fil-A,restaurant,62.52
+2023-03-28,BP Gas,transportation,33.79
+2023-03-29,BP Gas,transportation,18.91
+2023-03-30,Marriott,hotel,217.9
+2023-03-31,Comfort Inn,hotel,264.89
+2023-03-31,Trader Joes,grocery,46.21
+2023-03-31,Olive Garden,restaurant,101.69
+2023-03-31,Lyft,transportation,13.18
+2023-03-31,McDonald's,restaurant,12.69
+2023-04-01,Subway,restaurant,59.2
+2023-04-03,Marriott,hotel,174.16
+2023-04-03,Subway,restaurant,40.3
+2023-04-03,Costco,grocery,92.97
+2023-04-03,Chick-fil-A,restaurant,118.09
+2023-04-03,Trader Joes,grocery,73.44
+2023-04-04,76 Gas,transportation,28.91
+2023-04-05,Chevron,transportation,19.0
+2023-04-05,Olive Garden,restaurant,127.36
+2023-04-05,Holiday Inn,hotel,229.11
+2023-04-05,Marriott,hotel,347.76
+2023-04-06,Aldi,grocery,29.95
+2023-04-06,Radisson,hotel,316.73
+2023-04-07,Marriott,hotel,180.35
+2023-04-07,Safeway,grocery,70.32
+2023-04-07,Chipotle,restaurant,12.46
+2023-04-08,Comfort Inn,hotel,190.87
+2023-04-12,Subway,restaurant,112.04
+2023-04-12,Costco,grocery,29.84
+2023-04-13,Trader Joes,grocery,249.86
+2023-04-14,Trader Joes,grocery,78.68
+2023-04-14,Walmart,grocery,74.14
+2023-04-14,Red Lobster,restaurant,109.65
+2023-04-15,Marriott,hotel,147.93
+2023-04-16,Red Lobster,restaurant,148.55
+2023-04-17,Holiday Inn,hotel,277.18
+2023-04-18,Radisson,hotel,180.42
+2023-04-18,Marriott,hotel,302.65
+2023-04-19,Comfort Inn,hotel,326.62
+2023-04-19,Panera Bread,restaurant,105.64
+2023-04-19,Kroger,grocery,59.08
+2023-04-20,Comfort Inn,hotel,287.47
+2023-04-20,Panera Bread,restaurant,136.48
+2023-04-20,Amtrak,transportation,37.3
+2023-04-20,Panera Bread,restaurant,79.89
+2023-04-21,Target,grocery,34.95
+2023-04-21,Chevron,transportation,50.06
+2023-04-21,Metro Transit,transportation,46.15
+2023-04-21,Target,grocery,128.57
+2023-04-22,BP Gas,transportation,14.96
+2023-04-23,Panera Bread,restaurant,122.89
+2023-04-23,Chick-fil-A,restaurant,53.81
+2023-04-24,Panera Bread,restaurant,70.01
+2023-04-24,Hyatt,hotel,112.33
+2023-04-25,Target,grocery,235.44
+2023-04-25,Red Lobster,restaurant,143.6
+2023-04-25,Costco,grocery,191.7
+2023-04-26,BP Gas,transportation,58.15
+2023-04-27,BP Gas,transportation,30.32
+2023-04-27,Whole Foods,grocery,245.97
+2023-04-28,Metro Transit,transportation,79.35
+2023-04-29,Kroger,grocery,34.71
+2023-04-30,Metro Transit,transportation,75.19
+2023-04-30,76 Gas,transportation,10.09
+2023-04-30,Chevron,transportation,80.98
+2023-05-01,Taco Bell,restaurant,15.36
+2023-05-02,Sheraton,hotel,169.1
+2023-05-02,Lyft,transportation,62.92
+2023-05-04,Target,grocery,144.19
+2023-05-04,Panera Bread,restaurant,94.39
+2023-05-05,Chick-fil-A,restaurant,142.72
+2023-05-05,Marriott,hotel,141.13
+2023-05-05,Chick-fil-A,restaurant,146.11
+2023-05-05,Target,grocery,178.73
+2023-05-07,Chipotle,restaurant,41.95
+2023-05-07,Starbucks,restaurant,80.48
+2023-05-07,Radisson,hotel,113.6
+2023-05-07,Walmart,grocery,239.27
+2023-05-08,Metro Transit,transportation,23.22
+2023-05-09,Chick-fil-A,restaurant,88.96
+2023-05-09,McDonald's,restaurant,20.97
+2023-05-09,Aldi,grocery,120.43
+2023-05-10,Subway,restaurant,139.1
+2023-05-10,Marriott,hotel,307.56
+2023-05-11,Chipotle,restaurant,129.81
+2023-05-11,Holiday Inn,hotel,320.12
+2023-05-11,Radisson,hotel,344.1
+2023-05-12,Aldi,grocery,31.61
+2023-05-12,Panera Bread,restaurant,106.51
+2023-05-14,Taco Bell,restaurant,59.46
+2023-05-15,Olive Garden,restaurant,61.92
+2023-05-15,Chipotle,restaurant,38.19
+2023-05-15,BP Gas,transportation,56.73
+2023-05-16,Hilton,hotel,284.0
+2023-05-16,Trader Joes,grocery,211.52
+2023-05-16,Marriott,hotel,203.42
+2023-05-17,Starbucks,restaurant,117.58
+2023-05-18,BP Gas,transportation,19.28
+2023-05-18,Walmart,grocery,164.75
+2023-05-18,Hilton,hotel,271.87
+2023-05-18,The Cheesecake Factory,restaurant,56.7
+2023-05-18,Red Lobster,restaurant,93.43
+2023-05-19,Uber,transportation,77.16
+2023-05-19,Aldi,grocery,245.02
+2023-05-19,Holiday Inn,hotel,224.22
+2023-05-20,Sheraton,hotel,143.2
+2023-05-20,Panera Bread,restaurant,103.36
+2023-05-20,Aldi,grocery,45.27
+2023-05-20,Sheraton,hotel,225.17
+2023-05-21,Kroger,grocery,57.02
+2023-05-21,Amtrak,transportation,29.13
+2023-05-21,Best Western,hotel,177.66
+2023-05-21,Amtrak,transportation,47.08
+2023-05-21,Costco,grocery,20.1
+2023-05-22,Shell Gas Station,transportation,38.08
+2023-05-22,Comfort Inn,hotel,104.81
+2023-05-22,Whole Foods,grocery,150.29
+2023-05-22,BP Gas,transportation,77.26
+2023-05-22,The Cheesecake Factory,restaurant,99.84
+2023-05-23,Walmart,grocery,178.61
+2023-05-24,76 Gas,transportation,15.32
+2023-05-24,Holiday Inn,hotel,153.36
+2023-05-25,Sheraton,hotel,151.95
+2023-05-25,Aldi,grocery,90.9
+2023-05-26,Marriott,hotel,345.67
+2023-05-27,Marriott,hotel,304.62
+2023-05-27,Aldi,grocery,111.89
+2023-05-29,Whole Foods,grocery,142.05
+2023-05-29,Hilton,hotel,238.62
+2023-05-30,Costco,grocery,81.56
+2023-05-30,Whole Foods,grocery,28.71
+2023-05-30,Metro Transit,transportation,52.87
+2023-05-30,Hilton,hotel,274.85
+2023-05-31,Whole Foods,grocery,30.56
+2023-05-31,Sheraton,hotel,231.39
+2023-05-31,Red Lobster,restaurant,31.33
+2023-06-02,Whole Foods,grocery,247.68
+2023-06-03,Kroger,grocery,43.64
+2023-06-03,Subway,restaurant,85.66
+2023-06-03,Shell Gas Station,transportation,66.33
+2023-06-03,Red Lobster,restaurant,52.86
+2023-06-03,Comfort Inn,hotel,283.56
+2023-06-04,McDonald's,restaurant,48.61
+2023-06-04,76 Gas,transportation,37.75
+2023-06-04,Amtrak,transportation,38.5
+2023-06-05,Uber,transportation,27.39
+2023-06-07,Holiday Inn,hotel,89.57
+2023-06-07,BP Gas,transportation,40.57
+2023-06-09,Radisson,hotel,177.04
+2023-06-10,Trader Joes,grocery,231.02
+2023-06-11,Amtrak,transportation,10.69
+2023-06-12,Chick-fil-A,restaurant,111.26
+2023-06-12,Sheraton,hotel,318.13
+2023-06-12,Walmart,grocery,213.85
+2023-06-12,Subway,restaurant,20.99
+2023-06-12,Hyatt,hotel,140.12
+2023-06-12,Comfort Inn,hotel,209.93
+2023-06-13,Chevron,transportation,63.16
+2023-06-13,Lyft,transportation,69.36
+2023-06-13,BP Gas,transportation,19.45
+2023-06-13,Olive Garden,restaurant,44.2
+2023-06-14,Radisson,hotel,326.39
+2023-06-15,Comfort Inn,hotel,121.89
+2023-06-15,Taco Bell,restaurant,48.85
+2023-06-15,Hilton,hotel,345.27
+2023-06-16,Target,grocery,150.24
+2023-06-16,76 Gas,transportation,14.76
+2023-06-16,BP Gas,transportation,69.53
+2023-06-16,Chipotle,restaurant,64.04
+2023-06-16,Hilton,hotel,168.67
+2023-06-17,Aldi,grocery,132.33
+2023-06-17,Hyatt,hotel,155.4
+2023-06-17,Radisson,hotel,171.91
+2023-06-18,BP Gas,transportation,53.57
+2023-06-19,Whole Foods,grocery,96.93
+2023-06-19,Holiday Inn,hotel,322.27
+2023-06-20,Panera Bread,restaurant,116.79
+2023-06-20,Olive Garden,restaurant,42.12
+2023-06-21,Aldi,grocery,59.94
+2023-06-22,Best Western,hotel,178.47
+2023-06-22,Holiday Inn,hotel,314.73
+2023-06-24,Chipotle,restaurant,130.22
+2023-06-25,Hilton,hotel,263.7
+2023-06-26,Trader Joes,grocery,158.34
+2023-06-26,Whole Foods,grocery,32.72
+2023-06-27,Safeway,grocery,33.11
+2023-06-27,Sheraton,hotel,148.92
+2023-06-29,Target,grocery,227.62
+2023-06-29,Radisson,hotel,124.0
+2023-06-30,Olive Garden,restaurant,136.75
+2023-06-30,Chipotle,restaurant,130.77
+2023-07-01,Marriott,hotel,240.05
+2023-07-03,Olive Garden,restaurant,40.24
+2023-07-03,Comfort Inn,hotel,93.52
+2023-07-03,Best Western,hotel,332.6
+2023-07-03,Metro Transit,transportation,65.44
+2023-07-04,BP Gas,transportation,20.2
+2023-07-04,Trader Joes,grocery,140.27
+2023-07-04,Uber,transportation,83.81
+2023-07-04,76 Gas,transportation,57.39
+2023-07-04,McDonald's,restaurant,109.69
+2023-07-06,Chick-fil-A,restaurant,23.21
+2023-07-07,Holiday Inn,hotel,282.09
+2023-07-07,Walmart,grocery,93.83
+2023-07-09,Chick-fil-A,restaurant,140.15
+2023-07-09,BP Gas,transportation,47.23
+2023-07-09,Whole Foods,grocery,31.84
+2023-07-09,Shell Gas Station,transportation,58.54
+2023-07-09,Metro Transit,transportation,57.22
+2023-07-09,Subway,restaurant,81.72
+2023-07-10,Hyatt,hotel,343.97
+2023-07-10,Panera Bread,restaurant,81.7
+2023-07-11,Sheraton,hotel,314.74
+2023-07-11,Whole Foods,grocery,163.85
+2023-07-11,Starbucks,restaurant,76.59
+2023-07-11,Shell Gas Station,transportation,52.99
+2023-07-12,Walmart,grocery,94.44
+2023-07-12,Subway,restaurant,122.93
+2023-07-13,Marriott,hotel,123.07
+2023-07-13,Holiday Inn,hotel,237.63
+2023-07-14,Walmart,grocery,118.53
+2023-07-15,Chevron,transportation,17.07
+2023-07-15,Trader Joes,grocery,19.88
+2023-07-15,Shell Gas Station,transportation,32.04
+2023-07-15,Walmart,grocery,136.97
+2023-07-15,Uber,transportation,67.75
+2023-07-16,Trader Joes,grocery,187.35
+2023-07-16,Aldi,grocery,184.46
+2023-07-16,Marriott,hotel,138.41
+2023-07-17,Hilton,hotel,288.07
+2023-07-17,Subway,restaurant,68.76
+2023-07-17,Comfort Inn,hotel,192.99
+2023-07-18,Chick-fil-A,restaurant,61.19
+2023-07-19,Amtrak,transportation,22.64
+2023-07-20,Kroger,grocery,206.55
+2023-07-21,Chick-fil-A,restaurant,68.69
+2023-07-22,Olive Garden,restaurant,69.98
+2023-07-22,Aldi,grocery,206.26
+2023-07-23,McDonald's,restaurant,26.21
+2023-07-24,Panera Bread,restaurant,60.99
+2023-07-24,Panera Bread,restaurant,107.08
+2023-07-25,Aldi,grocery,204.18
+2023-07-26,Chick-fil-A,restaurant,92.22
+2023-07-26,Amtrak,transportation,45.26
+2023-07-26,Shell Gas Station,transportation,75.78
+2023-07-26,Starbucks,restaurant,64.08
+2023-07-26,Kroger,grocery,163.13
+2023-07-27,Costco,grocery,132.43
+2023-07-28,Comfort Inn,hotel,276.08
+2023-07-29,Whole Foods,grocery,211.07
+2023-07-29,Hyatt,hotel,213.11
+2023-07-29,Taco Bell,restaurant,16.59
+2023-07-29,Metro Transit,transportation,78.85
+2023-07-30,Metro Transit,transportation,80.75
+2023-07-30,Hilton,hotel,232.46
+2023-07-30,BP Gas,transportation,7.59
+2023-07-31,Holiday Inn,hotel,340.26
+2023-08-01,Best Western,hotel,236.63
+2023-08-01,Trader Joes,grocery,49.79
+2023-08-01,Amtrak,transportation,26.89
+2023-08-01,Hyatt,hotel,139.54
+2023-08-02,Whole Foods,grocery,171.36
+2023-08-03,Subway,restaurant,71.81
+2023-08-04,Comfort Inn,hotel,302.16
+2023-08-05,Whole Foods,grocery,55.3
+2023-08-06,Shell Gas Station,transportation,26.59
+2023-08-07,Red Lobster,restaurant,44.78
+2023-08-08,McDonald's,restaurant,60.9
+2023-08-09,Costco,grocery,227.22
+2023-08-09,Lyft,transportation,44.24
+2023-08-10,Starbucks,restaurant,81.85
+2023-08-10,Marriott,hotel,337.22
+2023-08-10,Holiday Inn,hotel,191.82
+2023-08-11,Whole Foods,grocery,80.49
+2023-08-11,Hyatt,hotel,308.6
+2023-08-11,The Cheesecake Factory,restaurant,68.04
+2023-08-11,Lyft,transportation,15.62
+2023-08-11,Holiday Inn,hotel,164.2
+2023-08-12,76 Gas,transportation,59.68
+2023-08-13,Red Lobster,restaurant,136.12
+2023-08-13,Metro Transit,transportation,79.63
+2023-08-13,Uber,transportation,29.73
+2023-08-13,Whole Foods,grocery,87.92
+2023-08-14,Target,grocery,120.25
+2023-08-14,Safeway,grocery,72.41
+2023-08-14,Panera Bread,restaurant,12.76
+2023-08-14,Chipotle,restaurant,44.57
+2023-08-15,Starbucks,restaurant,115.18
+2023-08-15,Walmart,grocery,42.48
+2023-08-16,Safeway,grocery,134.74
+2023-08-16,Lyft,transportation,53.48
+2023-08-16,Best Western,hotel,347.24
+2023-08-16,Marriott,hotel,198.96
+2023-08-19,Aldi,grocery,248.45
+2023-08-19,Best Western,hotel,161.4
+2023-08-19,Lyft,transportation,38.46
+2023-08-20,Best Western,hotel,193.37
+2023-08-20,Target,grocery,135.51
+2023-08-21,Red Lobster,restaurant,142.89
+2023-08-21,76 Gas,transportation,81.02
+2023-08-21,Whole Foods,grocery,167.57
+2023-08-22,Comfort Inn,hotel,174.42
+2023-08-22,BP Gas,transportation,50.97
+2023-08-23,Safeway,grocery,21.39
+2023-08-23,Amtrak,transportation,25.86
+2023-08-24,Chipotle,restaurant,141.75
+2023-08-24,Radisson,hotel,301.74
+2023-08-25,Walmart,grocery,218.05
+2023-08-25,Aldi,grocery,220.03
+2023-08-25,Hilton,hotel,161.33
+2023-08-25,The Cheesecake Factory,restaurant,144.84
+2023-08-26,Target,grocery,135.93
+2023-08-26,Radisson,hotel,121.07
+2023-08-26,Amtrak,transportation,26.04
+2023-08-26,Hilton,hotel,212.99
+2023-08-26,Shell Gas Station,transportation,68.98
+2023-08-26,Hilton,hotel,304.81
+2023-08-26,Kroger,grocery,180.75
+2023-08-27,Lyft,transportation,64.05
+2023-08-28,Costco,grocery,103.05
+2023-08-28,Red Lobster,restaurant,140.94
+2023-08-29,The Cheesecake Factory,restaurant,50.84
+2023-08-29,Hilton,hotel,147.71
+2023-08-30,Target,grocery,174.69
+2023-08-31,Uber,transportation,10.11
+2023-09-01,Target,grocery,204.58
+2023-09-01,Best Western,hotel,127.9
+2023-09-02,Metro Transit,transportation,22.28
+2023-09-03,Comfort Inn,hotel,207.34
+2023-09-03,Chick-fil-A,restaurant,69.85
+2023-09-03,Best Western,hotel,95.8
+2023-09-03,Metro Transit,transportation,15.85
+2023-09-03,Hilton,hotel,209.54
+2023-09-03,Costco,grocery,144.66
+2023-09-04,McDonald's,restaurant,98.69
+2023-09-04,The Cheesecake Factory,restaurant,90.95
+2023-09-04,The Cheesecake Factory,restaurant,116.06
+2023-09-04,Hyatt,hotel,196.45
+2023-09-04,Lyft,transportation,79.1
+2023-09-04,Hilton,hotel,220.91
+2023-09-05,Radisson,hotel,280.21
+2023-09-05,Lyft,transportation,35.01
+2023-09-05,Taco Bell,restaurant,35.34
+2023-09-08,Target,grocery,54.54
+2023-09-08,Subway,restaurant,98.99
+2023-09-09,The Cheesecake Factory,restaurant,125.52
+2023-09-09,The Cheesecake Factory,restaurant,111.7
+2023-09-09,Hyatt,hotel,191.38
+2023-09-10,Metro Transit,transportation,38.2
+2023-09-10,Aldi,grocery,149.87
+2023-09-11,Sheraton,hotel,270.67
+2023-09-12,Trader Joes,grocery,242.6
+2023-09-12,Whole Foods,grocery,177.18
+2023-09-12,Radisson,hotel,230.37
+2023-09-13,Holiday Inn,hotel,268.6
+2023-09-13,Chick-fil-A,restaurant,49.71
+2023-09-13,Safeway,grocery,159.2
+2023-09-15,76 Gas,transportation,32.6
+2023-09-16,76 Gas,transportation,33.51
+2023-09-16,Starbucks,restaurant,105.67
+2023-09-16,BP Gas,transportation,21.06
+2023-09-16,Metro Transit,transportation,28.19
+2023-09-16,Uber,transportation,27.41
+2023-09-17,Subway,restaurant,40.55
+2023-09-18,Starbucks,restaurant,148.51
+2023-09-18,Starbucks,restaurant,105.71
+2023-09-18,Hyatt,hotel,348.48
+2023-09-18,Amtrak,transportation,25.45
+2023-09-18,Lyft,transportation,83.89
+2023-09-18,Trader Joes,grocery,144.34
+2023-09-19,Panera Bread,restaurant,74.45
+2023-09-19,Sheraton,hotel,329.55
+2023-09-20,Trader Joes,grocery,137.12
+2023-09-20,Trader Joes,grocery,211.17
+2023-09-22,Costco,grocery,88.8
+2023-09-23,Chevron,transportation,74.99
+2023-09-23,Hilton,hotel,172.69
+2023-09-23,Starbucks,restaurant,138.96
+2023-09-24,Uber,transportation,51.83
+2023-09-24,Uber,transportation,64.82
+2023-09-25,BP Gas,transportation,70.72
+2023-09-28,Hilton,hotel,289.2
+2023-09-28,Metro Transit,transportation,32.02
+2023-09-29,76 Gas,transportation,73.81
+2023-09-29,Metro Transit,transportation,82.93
+2023-09-30,Kroger,grocery,21.72
+2023-09-30,Sheraton,hotel,196.54
+2023-09-30,76 Gas,transportation,76.69
+2023-09-30,The Cheesecake Factory,restaurant,113.32
+2023-09-30,Comfort Inn,hotel,304.13
+2023-10-01,Shell Gas Station,transportation,62.72
+2023-10-01,Starbucks,restaurant,137.71
+2023-10-01,Aldi,grocery,197.9
+2023-10-01,Radisson,hotel,144.19
+2023-10-02,Olive Garden,restaurant,146.14
+2023-10-02,Metro Transit,transportation,8.68
+2023-10-03,Target,grocery,39.92
+2023-10-03,Target,grocery,205.8
+2023-10-03,Lyft,transportation,25.98
+2023-10-04,Red Lobster,restaurant,114.77
+2023-10-04,Comfort Inn,hotel,244.67
+2023-10-04,Sheraton,hotel,132.86
+2023-10-05,Metro Transit,transportation,46.78
+2023-10-05,Hilton,hotel,284.04
+2023-10-05,BP Gas,transportation,6.36
+2023-10-06,Uber,transportation,73.77
+2023-10-07,Trader Joes,grocery,97.4
+2023-10-08,Metro Transit,transportation,75.91
+2023-10-08,Best Western,hotel,132.68
+2023-10-08,Trader Joes,grocery,99.59
+2023-10-09,Safeway,grocery,127.85
+2023-10-11,Comfort Inn,hotel,183.66
+2023-10-11,Panera Bread,restaurant,101.37
+2023-10-13,Taco Bell,restaurant,118.81
+2023-10-14,McDonald's,restaurant,53.21
+2023-10-15,Target,grocery,29.13
+2023-10-16,The Cheesecake Factory,restaurant,32.41
+2023-10-17,Starbucks,restaurant,78.23
+2023-10-17,Starbucks,restaurant,32.8
+2023-10-17,Hyatt,hotel,109.21
+2023-10-17,Starbucks,restaurant,120.84
+2023-10-18,BP Gas,transportation,22.13
+2023-10-20,Comfort Inn,hotel,139.35
+2023-10-20,76 Gas,transportation,57.74
+2023-10-20,The Cheesecake Factory,restaurant,92.81
+2023-10-21,Sheraton,hotel,333.53
+2023-10-22,Safeway,grocery,231.37
+2023-10-22,Starbucks,restaurant,93.34
+2023-10-22,Sheraton,hotel,221.67
+2023-10-22,Whole Foods,grocery,102.52
+2023-10-24,Best Western,hotel,109.22
+2023-10-25,BP Gas,transportation,48.63
+2023-10-25,Costco,grocery,118.67
+2023-10-26,Aldi,grocery,156.68
+2023-10-27,Costco,grocery,218.0
+2023-10-27,Hilton,hotel,243.51
+2023-10-28,McDonald's,restaurant,105.83
+2023-10-28,Aldi,grocery,224.0
+2023-10-28,Taco Bell,restaurant,128.64
+2023-10-29,Trader Joes,grocery,39.37
+2023-10-29,Panera Bread,restaurant,100.98
+2023-10-30,76 Gas,transportation,71.19
+2023-10-31,Uber,transportation,25.75
+2023-10-31,Radisson,hotel,290.9
+2023-10-31,Comfort Inn,hotel,138.16
+2023-11-01,Comfort Inn,hotel,324.73
+2023-11-01,Shell Gas Station,transportation,42.81
+2023-11-01,Target,grocery,222.76
+2023-11-01,Chick-fil-A,restaurant,11.56
+2023-11-02,Metro Transit,transportation,73.83
+2023-11-02,The Cheesecake Factory,restaurant,142.99
+2023-11-03,The Cheesecake Factory,restaurant,58.58
+2023-11-03,Trader Joes,grocery,77.96
+2023-11-04,Kroger,grocery,119.45
+2023-11-04,Target,grocery,229.68
+2023-11-04,Target,grocery,41.77
+2023-11-04,Taco Bell,restaurant,103.48
+2023-11-04,Amtrak,transportation,20.45
+2023-11-04,Comfort Inn,hotel,155.35
+2023-11-05,Chevron,transportation,23.89
+2023-11-05,Olive Garden,restaurant,12.23
+2023-11-06,Safeway,grocery,140.38
+2023-11-06,McDonald's,restaurant,135.73
+2023-11-07,Amtrak,transportation,80.39
+2023-11-08,Hilton,hotel,123.96
+2023-11-08,Best Western,hotel,172.1
+2023-11-09,Amtrak,transportation,10.41
+2023-11-10,Uber,transportation,49.14
+2023-11-10,McDonald's,restaurant,119.31
+2023-11-11,76 Gas,transportation,78.2
+2023-11-11,BP Gas,transportation,34.21
+2023-11-11,Chevron,transportation,15.0
+2023-11-11,Whole Foods,grocery,121.04
+2023-11-12,Panera Bread,restaurant,139.24
+2023-11-12,Sheraton,hotel,175.6
+2023-11-12,Olive Garden,restaurant,18.79
+2023-11-14,Costco,grocery,57.08
+2023-11-14,Comfort Inn,hotel,92.16
+2023-11-15,Target,grocery,55.45
+2023-11-15,Best Western,hotel,280.15
+2023-11-15,Hyatt,hotel,306.86
+2023-11-16,Olive Garden,restaurant,149.05
+2023-11-16,Aldi,grocery,171.42
+2023-11-17,Hyatt,hotel,107.95
+2023-11-17,The Cheesecake Factory,restaurant,83.42
+2023-11-17,Lyft,transportation,72.14
+2023-11-17,Chevron,transportation,72.91
+2023-11-17,Radisson,hotel,238.32
+2023-11-18,Sheraton,hotel,233.12
+2023-11-18,Subway,restaurant,111.7
+2023-11-18,Red Lobster,restaurant,37.75
+2023-11-19,Starbucks,restaurant,22.25
+2023-11-19,Holiday Inn,hotel,221.61
+2023-11-20,Lyft,transportation,79.53
+2023-11-20,Metro Transit,transportation,45.41
+2023-11-21,Costco,grocery,17.05
+2023-11-23,Safeway,grocery,220.2
+2023-11-24,Hilton,hotel,329.72
+2023-11-24,Hilton,hotel,173.33
+2023-11-25,Chevron,transportation,78.15
+2023-11-26,Starbucks,restaurant,43.87
+2023-11-27,76 Gas,transportation,13.53
+2023-11-27,Hilton,hotel,162.68
+2023-11-28,Red Lobster,restaurant,105.03
+2023-11-28,Radisson,hotel,281.18
+2023-11-28,BP Gas,transportation,31.74
+2023-11-29,Subway,restaurant,65.9
+2023-11-30,Safeway,grocery,203.27
+2023-12-01,Metro Transit,transportation,27.11
+2023-12-02,Metro Transit,transportation,34.67
+2023-12-03,Hilton,hotel,164.21
+2023-12-03,Marriott,hotel,342.71
+2023-12-03,Chipotle,restaurant,94.14
+2023-12-04,Taco Bell,restaurant,84.02
+2023-12-04,Holiday Inn,hotel,330.06
+2023-12-05,The Cheesecake Factory,restaurant,79.24
+2023-12-06,Best Western,hotel,338.73
+2023-12-08,Target,grocery,154.38
+2023-12-09,The Cheesecake Factory,restaurant,100.8
+2023-12-10,Olive Garden,restaurant,34.77
+2023-12-10,Kroger,grocery,26.91
+2023-12-10,Aldi,grocery,75.72
+2023-12-10,Sheraton,hotel,188.15
+2023-12-10,The Cheesecake Factory,restaurant,93.58
+2023-12-10,Holiday Inn,hotel,289.17
+2023-12-11,Shell Gas Station,transportation,62.33
+2023-12-11,Whole Foods,grocery,242.02
+2023-12-11,76 Gas,transportation,73.36
+2023-12-12,Kroger,grocery,174.42
+2023-12-12,Aldi,grocery,43.11
+2023-12-12,Whole Foods,grocery,46.97
+2023-12-14,Trader Joes,grocery,36.76
+2023-12-15,Aldi,grocery,153.62
+2023-12-16,Starbucks,restaurant,132.61
+2023-12-16,Hyatt,hotel,266.79
+2023-12-16,Costco,grocery,90.63
+2023-12-16,Aldi,grocery,110.86
+2023-12-17,Chipotle,restaurant,76.0
+2023-12-19,Taco Bell,restaurant,94.06
+2023-12-19,Metro Transit,transportation,32.94
+2023-12-19,Best Western,hotel,230.43
+2023-12-20,Hyatt,hotel,104.03
+2023-12-22,Sheraton,hotel,268.26
+2023-12-23,Chevron,transportation,37.51
+2023-12-23,Shell Gas Station,transportation,10.63
+2023-12-23,Shell Gas Station,transportation,20.93
+2023-12-23,76 Gas,transportation,80.63
+2023-12-24,Marriott,hotel,268.71
+2023-12-24,Walmart,grocery,129.34
+2023-12-24,Lyft,transportation,16.16
+2023-12-25,Comfort Inn,hotel,338.58
+2023-12-25,Best Western,hotel,242.42
+2023-12-25,Red Lobster,restaurant,134.11
+2023-12-26,Lyft,transportation,58.27
+2023-12-26,Whole Foods,grocery,235.16
+2023-12-26,Uber,transportation,69.53
+2023-12-27,Hyatt,hotel,252.54
+2023-12-27,Whole Foods,grocery,198.18
+2023-12-28,Taco Bell,restaurant,145.39
+2023-12-28,76 Gas,transportation,66.08
+2023-12-28,Chick-fil-A,restaurant,48.77
+2023-12-28,Metro Transit,transportation,12.51
+2023-12-30,Kroger,grocery,35.29
+2024-01-01,Hyatt,hotel,283.83
+2024-01-02,Best Western,hotel,266.19
+2024-01-02,McDonald's,restaurant,131.93
+2024-01-03,Red Lobster,restaurant,20.31
+2024-01-03,Panera Bread,restaurant,47.12
+2024-01-04,Starbucks,restaurant,92.78
+2024-01-05,Whole Foods,grocery,206.47
+2024-01-05,Trader Joes,grocery,141.24
+2024-01-06,Comfort Inn,hotel,293.7
+2024-01-06,Shell Gas Station,transportation,71.82
+2024-01-08,76 Gas,transportation,63.44
+2024-01-09,Shell Gas Station,transportation,47.18
+2024-01-10,Holiday Inn,hotel,309.6
+2024-01-10,Costco,grocery,208.62
+2024-01-10,Radisson,hotel,339.0
+2024-01-10,Metro Transit,transportation,76.92
+2024-01-11,76 Gas,transportation,80.11
+2024-01-13,Red Lobster,restaurant,148.8
+2024-01-13,Whole Foods,grocery,18.68
+2024-01-14,Trader Joes,grocery,65.42
+2024-01-14,Sheraton,hotel,134.68
+2024-01-14,BP Gas,transportation,25.07
+2024-01-14,Aldi,grocery,121.63
+2024-01-14,Safeway,grocery,176.18
+2024-01-14,Amtrak,transportation,63.52
+2024-01-15,The Cheesecake Factory,restaurant,67.59
+2024-01-15,Walmart,grocery,89.83
+2024-01-16,Chevron,transportation,52.52
+2024-01-16,The Cheesecake Factory,restaurant,59.11
+2024-01-16,Uber,transportation,6.24
+2024-01-17,Starbucks,restaurant,144.82
+2024-01-17,Chipotle,restaurant,111.89
+2024-01-18,Whole Foods,grocery,128.24
+2024-01-18,Red Lobster,restaurant,75.96
+2024-01-18,Comfort Inn,hotel,149.56
+2024-01-19,Shell Gas Station,transportation,41.83
+2024-01-19,Shell Gas Station,transportation,7.41
+2024-01-20,Metro Transit,transportation,12.83
+2024-01-20,Olive Garden,restaurant,110.83
+2024-01-20,Taco Bell,restaurant,137.77
+2024-01-21,Olive Garden,restaurant,105.12
+2024-01-21,Hilton,hotel,123.15
+2024-01-22,Shell Gas Station,transportation,38.39
+2024-01-22,Trader Joes,grocery,82.99
+2024-01-22,Olive Garden,restaurant,22.32
+2024-01-22,Comfort Inn,hotel,207.92
+2024-01-22,Marriott,hotel,157.19
+2024-01-23,Sheraton,hotel,184.72
+2024-01-23,Chevron,transportation,20.94
+2024-01-24,Starbucks,restaurant,44.0
+2024-01-24,Chevron,transportation,67.62
+2024-01-25,Walmart,grocery,70.57
+2024-01-25,Aldi,grocery,63.77
+2024-01-25,Whole Foods,grocery,229.64
+2024-01-25,Red Lobster,restaurant,69.17
+2024-01-26,Radisson,hotel,120.22
+2024-01-26,Amtrak,transportation,84.72
+2024-01-27,Red Lobster,restaurant,126.6
+2024-01-27,Starbucks,restaurant,103.34
+2024-01-28,Holiday Inn,hotel,205.12
+2024-01-28,Hilton,hotel,266.43
+2024-01-28,Kroger,grocery,213.61
+2024-01-29,Best Western,hotel,278.3
+2024-01-30,Lyft,transportation,35.47
+2024-01-30,Target,grocery,85.53
+2024-01-30,Panera Bread,restaurant,57.4
+2024-01-30,Holiday Inn,hotel,247.64
+2024-02-01,Panera Bread,restaurant,22.88
+2024-02-01,Hyatt,hotel,254.01
+2024-02-01,Olive Garden,restaurant,77.44
+2024-02-02,McDonald's,restaurant,48.78
+2024-02-02,Chick-fil-A,restaurant,130.68
+2024-02-04,Panera Bread,restaurant,144.29
+2024-02-04,The Cheesecake Factory,restaurant,68.14
+2024-02-04,Safeway,grocery,119.38
+2024-02-05,Chipotle,restaurant,61.17
+2024-02-05,Best Western,hotel,198.61
+2024-02-05,Target,grocery,68.47
+2024-02-06,Shell Gas Station,transportation,27.75
+2024-02-06,Aldi,grocery,122.67
+2024-02-06,Target,grocery,160.03
+2024-02-06,Chipotle,restaurant,85.86
+2024-02-07,Marriott,hotel,247.68
+2024-02-08,Olive Garden,restaurant,149.22
+2024-02-09,Hilton,hotel,306.75
+2024-02-09,Amtrak,transportation,59.11
+2024-02-09,Safeway,grocery,126.1
+2024-02-10,BP Gas,transportation,82.5
+2024-02-11,Red Lobster,restaurant,107.61
+2024-02-11,Best Western,hotel,221.33
+2024-02-12,Olive Garden,restaurant,105.05
+2024-02-13,McDonald's,restaurant,146.93
+2024-02-13,Safeway,grocery,132.84
+2024-02-13,Chick-fil-A,restaurant,103.67
+2024-02-14,Lyft,transportation,68.94
+2024-02-14,Kroger,grocery,214.96
+2024-02-14,Chevron,transportation,78.28
+2024-02-14,Whole Foods,grocery,45.53
+2024-02-15,Kroger,grocery,224.31
+2024-02-15,Holiday Inn,hotel,192.21
+2024-02-16,Holiday Inn,hotel,346.86
+2024-02-16,Aldi,grocery,188.36
+2024-02-17,Lyft,transportation,18.9
+2024-02-17,Safeway,grocery,92.04
+2024-02-17,Whole Foods,grocery,148.38
+2024-02-18,Subway,restaurant,38.87
+2024-02-18,Chipotle,restaurant,114.03
+2024-02-19,Lyft,transportation,31.25
+2024-02-21,Starbucks,restaurant,31.03
+2024-02-21,Marriott,hotel,341.24
+2024-02-22,Costco,grocery,213.55
+2024-02-22,Metro Transit,transportation,60.73
+2024-02-23,Aldi,grocery,199.72
+2024-02-23,76 Gas,transportation,53.11
+2024-02-23,Lyft,transportation,28.94
+2024-02-23,Chevron,transportation,6.26
+2024-02-23,Chevron,transportation,49.57
+2024-02-24,Chipotle,restaurant,63.85
+2024-02-24,Chick-fil-A,restaurant,88.05
+2024-02-25,Hilton,hotel,132.75
+2024-02-25,Kroger,grocery,141.24
+2024-02-26,Radisson,hotel,101.91
+2024-02-26,Panera Bread,restaurant,115.57
+2024-02-27,Radisson,hotel,222.15
+2024-02-28,Chevron,transportation,34.72
+2024-02-29,Lyft,transportation,75.97
+2024-02-29,Target,grocery,90.11
+2024-03-01,Panera Bread,restaurant,43.65
+2024-03-02,Marriott,hotel,190.83
+2024-03-02,Target,grocery,248.78
+2024-03-02,76 Gas,transportation,11.99
+2024-03-02,Kroger,grocery,173.95
+2024-03-03,Sheraton,hotel,300.49
+2024-03-03,Panera Bread,restaurant,142.17
+2024-03-04,Comfort Inn,hotel,258.16
+2024-03-04,Taco Bell,restaurant,53.7
+2024-03-05,Uber,transportation,80.1
+2024-03-05,BP Gas,transportation,72.44
+2024-03-05,Whole Foods,grocery,138.1
+2024-03-06,Walmart,grocery,242.86
+2024-03-07,Comfort Inn,hotel,274.14
+2024-03-07,Whole Foods,grocery,20.41
+2024-03-07,Hyatt,hotel,223.53
+2024-03-08,Walmart,grocery,197.19
+2024-03-08,Shell Gas Station,transportation,27.67
+2024-03-09,Walmart,grocery,193.8
+2024-03-09,The Cheesecake Factory,restaurant,91.9
+2024-03-10,Best Western,hotel,300.79
+2024-03-12,Comfort Inn,hotel,121.12
+2024-03-12,Marriott,hotel,295.53
+2024-03-14,Uber,transportation,60.39
+2024-03-15,76 Gas,transportation,43.53
+2024-03-15,Sheraton,hotel,299.03
+2024-03-15,Chipotle,restaurant,14.8
+2024-03-16,Subway,restaurant,28.44
+2024-03-17,Red Lobster,restaurant,34.17
+2024-03-18,Safeway,grocery,34.9
+2024-03-18,Costco,grocery,161.7
+2024-03-19,Olive Garden,restaurant,11.46
+2024-03-19,Radisson,hotel,143.1
+2024-03-19,Lyft,transportation,37.08
+2024-03-20,Aldi,grocery,184.05
+2024-03-20,The Cheesecake Factory,restaurant,86.76
+2024-03-20,Marriott,hotel,90.33
+2024-03-20,Kroger,grocery,147.14
+2024-03-21,Radisson,hotel,146.15
+2024-03-21,Walmart,grocery,106.93
+2024-03-21,Walmart,grocery,223.12
+2024-03-21,Amtrak,transportation,53.92
+2024-03-22,Amtrak,transportation,29.8
+2024-03-22,Whole Foods,grocery,115.85
+2024-03-22,Costco,grocery,191.58
+2024-03-22,Hyatt,hotel,148.41
+2024-03-23,Whole Foods,grocery,249.41
+2024-03-23,Chevron,transportation,49.23
+2024-03-23,Taco Bell,restaurant,38.43
+2024-03-23,Costco,grocery,98.26
+2024-03-23,Shell Gas Station,transportation,60.57
+2024-03-25,Safeway,grocery,205.35
+2024-03-27,Whole Foods,grocery,56.77
+2024-03-27,Olive Garden,restaurant,149.57
+2024-03-28,Hilton,hotel,199.36
+2024-03-28,Kroger,grocery,210.55
+2024-03-29,Kroger,grocery,29.14
+2024-03-30,Safeway,grocery,113.07
+2024-03-30,BP Gas,transportation,42.26
+2024-03-31,Whole Foods,grocery,228.2
+2024-04-01,Panera Bread,restaurant,129.77
+2024-04-01,Radisson,hotel,323.01
+2024-04-01,Kroger,grocery,180.44
+2024-04-01,Costco,grocery,50.2
+2024-04-02,Trader Joes,grocery,57.03
+2024-04-02,Sheraton,hotel,244.58
+2024-04-02,Hilton,hotel,140.13
+2024-04-03,Radisson,hotel,134.24
+2024-04-03,Red Lobster,restaurant,32.99
+2024-04-03,Safeway,grocery,126.29
+2024-04-03,Best Western,hotel,278.64
+2024-04-04,Taco Bell,restaurant,137.02
+2024-04-04,Olive Garden,restaurant,19.47
+2024-04-04,Chevron,transportation,54.86
+2024-04-05,Marriott,hotel,276.12
+2024-04-05,Starbucks,restaurant,88.81
+2024-04-05,Lyft,transportation,8.28
+2024-04-05,Lyft,transportation,67.67
+2024-04-06,Sheraton,hotel,184.39
+2024-04-06,Marriott,hotel,334.41
+2024-04-06,Taco Bell,restaurant,129.21
+2024-04-06,BP Gas,transportation,23.65
+2024-04-06,Taco Bell,restaurant,66.32
+2024-04-06,Radisson,hotel,89.78
+2024-04-06,Target,grocery,214.06
+2024-04-08,Chevron,transportation,6.44
+2024-04-08,Starbucks,restaurant,116.69
+2024-04-08,Trader Joes,grocery,183.36
+2024-04-09,Marriott,hotel,196.88
+2024-04-09,Chipotle,restaurant,132.38
+2024-04-09,Hyatt,hotel,171.62
+2024-04-10,Uber,transportation,37.19
+2024-04-10,Uber,transportation,40.3
+2024-04-10,Safeway,grocery,224.19
+2024-04-10,Amtrak,transportation,15.5
+2024-04-10,Metro Transit,transportation,83.29
+2024-04-11,Hilton,hotel,287.87
+2024-04-11,Chipotle,restaurant,113.34
+2024-04-11,Safeway,grocery,114.14
+2024-04-12,Safeway,grocery,133.08
+2024-04-12,Chick-fil-A,restaurant,148.05
+2024-04-12,Marriott,hotel,227.14
+2024-04-13,Red Lobster,restaurant,74.69
+2024-04-13,Taco Bell,restaurant,128.47
+2024-04-14,Marriott,hotel,109.79
+2024-04-14,Target,grocery,105.84
+2024-04-14,Chick-fil-A,restaurant,139.03
+2024-04-15,Metro Transit,transportation,44.76
+2024-04-15,Radisson,hotel,133.54
+2024-04-16,Kroger,grocery,39.4
+2024-04-16,Trader Joes,grocery,233.2
+2024-04-16,Kroger,grocery,18.46
+2024-04-16,Red Lobster,restaurant,31.95
+2024-04-19,Hyatt,hotel,171.84
+2024-04-19,Chick-fil-A,restaurant,121.42
+2024-04-19,BP Gas,transportation,78.7
+2024-04-21,Safeway,grocery,191.1
+2024-04-22,Radisson,hotel,107.26
+2024-04-22,Amtrak,transportation,16.82
+2024-04-23,76 Gas,transportation,57.94
+2024-04-23,Panera Bread,restaurant,39.1
+2024-04-23,Walmart,grocery,157.7
+2024-04-24,Marriott,hotel,286.35
+2024-04-24,Hilton,hotel,129.65
+2024-04-24,Whole Foods,grocery,229.13
+2024-04-26,Amtrak,transportation,50.68
+2024-04-26,Holiday Inn,hotel,109.66
+2024-04-26,Holiday Inn,hotel,241.68
+2024-04-26,Lyft,transportation,56.63
+2024-04-27,Panera Bread,restaurant,16.17
+2024-04-28,Trader Joes,grocery,143.28
+2024-04-28,Olive Garden,restaurant,101.66
+2024-04-28,Sheraton,hotel,96.22
+2024-04-28,McDonald's,restaurant,34.09
+2024-04-29,Hilton,hotel,310.61
+2024-04-29,Radisson,hotel,310.8
+2024-04-30,76 Gas,transportation,54.52
+2024-04-30,Red Lobster,restaurant,121.37
+2024-05-02,Best Western,hotel,168.92
+2024-05-03,McDonald's,restaurant,86.24
+2024-05-05,Shell Gas Station,transportation,26.1
+2024-05-05,Sheraton,hotel,170.78
+2024-05-05,Target,grocery,147.49
+2024-05-05,Lyft,transportation,33.41
+2024-05-06,Hilton,hotel,273.13
+2024-05-06,Kroger,grocery,91.72
+2024-05-06,Subway,restaurant,91.23
+2024-05-07,Whole Foods,grocery,235.67
+2024-05-07,Chipotle,restaurant,147.17
+2024-05-07,Hyatt,hotel,203.5
+2024-05-07,Best Western,hotel,330.88
+2024-05-07,Metro Transit,transportation,80.97
+2024-05-07,Chick-fil-A,restaurant,85.31
+2024-05-07,Whole Foods,grocery,107.77
+2024-05-07,BP Gas,transportation,55.17
+2024-05-09,Chick-fil-A,restaurant,45.61
+2024-05-09,76 Gas,transportation,8.28
+2024-05-09,Target,grocery,148.36
+2024-05-09,Amtrak,transportation,58.16
+2024-05-09,76 Gas,transportation,10.32
+2024-05-11,Lyft,transportation,69.04
+2024-05-12,Marriott,hotel,249.58
+2024-05-13,76 Gas,transportation,21.37
+2024-05-13,Shell Gas Station,transportation,62.1
+2024-05-13,Metro Transit,transportation,34.54
+2024-05-14,Walmart,grocery,240.17
+2024-05-14,Marriott,hotel,118.06
+2024-05-14,Comfort Inn,hotel,104.23
+2024-05-14,Subway,restaurant,95.13
+2024-05-14,Hilton,hotel,133.03
+2024-05-15,Chevron,transportation,38.73
+2024-05-16,Subway,restaurant,63.96
+2024-05-18,Whole Foods,grocery,144.15
+2024-05-18,Uber,transportation,75.52
+2024-05-18,Amtrak,transportation,12.9
+2024-05-19,Trader Joes,grocery,118.22
+2024-05-19,Aldi,grocery,98.74
+2024-05-19,Radisson,hotel,123.77
+2024-05-19,Chick-fil-A,restaurant,98.5
+2024-05-20,Costco,grocery,222.59
+2024-05-21,Best Western,hotel,159.84
+2024-05-21,Shell Gas Station,transportation,55.74
+2024-05-21,Kroger,grocery,231.96
+2024-05-22,Hyatt,hotel,292.2
+2024-05-22,BP Gas,transportation,21.62
+2024-05-22,Chipotle,restaurant,53.42
+2024-05-22,Aldi,grocery,211.79
+2024-05-22,Walmart,grocery,241.66
+2024-05-23,The Cheesecake Factory,restaurant,15.14
+2024-05-23,Target,grocery,219.27
+2024-05-24,Safeway,grocery,151.84
+2024-05-24,76 Gas,transportation,6.47
+2024-05-24,McDonald's,restaurant,106.36
+2024-05-24,Olive Garden,restaurant,43.13
+2024-05-24,Metro Transit,transportation,13.29
+2024-05-25,Chevron,transportation,9.25
+2024-05-26,Lyft,transportation,10.52
+2024-05-26,Safeway,grocery,231.48
+2024-05-27,Uber,transportation,24.56
+2024-05-27,Costco,grocery,164.99
+2024-05-27,Safeway,grocery,189.96
+2024-05-29,Trader Joes,grocery,19.46
+2024-05-29,Chick-fil-A,restaurant,20.42
+2024-05-30,Whole Foods,grocery,208.89
+2024-05-30,Chipotle,restaurant,25.01
+2024-05-31,Olive Garden,restaurant,69.99
+2024-05-31,Lyft,transportation,15.97
+2024-05-31,Subway,restaurant,56.08
+2024-05-31,Best Western,hotel,298.7
+2024-06-01,Subway,restaurant,12.08
+2024-06-01,Hilton,hotel,283.81
+2024-06-02,Red Lobster,restaurant,15.59
+2024-06-03,Radisson,hotel,334.11
+2024-06-03,Marriott,hotel,202.87
+2024-06-03,Kroger,grocery,147.66
+2024-06-03,Hyatt,hotel,145.35
+2024-06-03,Target,grocery,181.52
+2024-06-03,Lyft,transportation,47.24
+2024-06-04,Hilton,hotel,210.7
+2024-06-05,Target,grocery,79.57
+2024-06-06,Starbucks,restaurant,49.6
+2024-06-06,Metro Transit,transportation,52.24
+2024-06-06,Whole Foods,grocery,157.9
+2024-06-06,Metro Transit,transportation,48.82
+2024-06-06,Red Lobster,restaurant,99.93
+2024-06-07,Costco,grocery,230.91
+2024-06-07,Amtrak,transportation,79.41
+2024-06-07,Kroger,grocery,162.48
+2024-06-08,Hilton,hotel,184.74
+2024-06-09,Best Western,hotel,311.29
+2024-06-10,Hyatt,hotel,131.28
+2024-06-10,Walmart,grocery,48.2
+2024-06-10,Starbucks,restaurant,94.43
+2024-06-10,Radisson,hotel,258.61
+2024-06-11,Target,grocery,130.34
+2024-06-11,Hilton,hotel,272.11
+2024-06-11,Subway,restaurant,15.8
+2024-06-11,Starbucks,restaurant,42.96
+2024-06-12,Holiday Inn,hotel,135.93
+2024-06-13,Best Western,hotel,299.6
+2024-06-13,Walmart,grocery,70.0
+2024-06-13,Aldi,grocery,31.4
+2024-06-15,Metro Transit,transportation,77.34
+2024-06-15,Lyft,transportation,54.52
+2024-06-15,Starbucks,restaurant,102.49
+2024-06-17,Walmart,grocery,129.76
+2024-06-17,Amtrak,transportation,65.52
+2024-06-17,Panera Bread,restaurant,146.68
+2024-06-18,Marriott,hotel,285.17
+2024-06-20,McDonald's,restaurant,59.34
+2024-06-20,Red Lobster,restaurant,55.0
+2024-06-22,McDonald's,restaurant,139.34
+2024-06-22,Target,grocery,226.16
+2024-06-23,Trader Joes,grocery,23.32
+2024-06-23,The Cheesecake Factory,restaurant,8.74
+2024-06-23,Best Western,hotel,311.86
+2024-06-24,Chevron,transportation,72.26
+2024-06-25,Chick-fil-A,restaurant,18.33
+2024-06-26,Kroger,grocery,143.18
+2024-06-26,Chevron,transportation,22.13
+2024-06-26,The Cheesecake Factory,restaurant,35.13
+2024-06-27,Uber,transportation,13.89
+2024-06-28,Chevron,transportation,10.55
+2024-06-28,Marriott,hotel,225.21
+2024-06-28,Best Western,hotel,193.31
+2024-06-29,Panera Bread,restaurant,80.03
+2024-06-29,Chevron,transportation,59.59
+2024-06-30,Starbucks,restaurant,116.18
+2024-07-01,Amtrak,transportation,66.58
+2024-07-01,Best Western,hotel,177.02
+2024-07-02,Uber,transportation,83.96
+2024-07-04,Costco,grocery,246.23
+2024-07-05,Red Lobster,restaurant,103.74
+2024-07-05,Radisson,hotel,250.82
+2024-07-06,Best Western,hotel,269.36
+2024-07-07,Marriott,hotel,220.14
+2024-07-07,Hilton,hotel,198.31
+2024-07-08,Target,grocery,164.34
+2024-07-08,76 Gas,transportation,11.94
+2024-07-08,Subway,restaurant,109.55
+2024-07-08,Holiday Inn,hotel,156.01
+2024-07-08,Shell Gas Station,transportation,58.43
+2024-07-09,Trader Joes,grocery,126.45
+2024-07-09,Holiday Inn,hotel,200.59
+2024-07-09,Whole Foods,grocery,182.67
+2024-07-10,Holiday Inn,hotel,182.99
+2024-07-11,Subway,restaurant,93.17
+2024-07-12,Chevron,transportation,6.29
+2024-07-12,Subway,restaurant,61.27
+2024-07-13,Kroger,grocery,53.42
+2024-07-13,Taco Bell,restaurant,22.9
+2024-07-13,Best Western,hotel,224.48
+2024-07-14,Uber,transportation,29.96
+2024-07-14,Holiday Inn,hotel,185.7
+2024-07-14,Starbucks,restaurant,95.84
+2024-07-15,Uber,transportation,73.0
+2024-07-15,Panera Bread,restaurant,48.37
+2024-07-16,Whole Foods,grocery,150.42
+2024-07-16,Lyft,transportation,5.59
+2024-07-20,Target,grocery,241.41
+2024-07-21,BP Gas,transportation,73.1
+2024-07-21,Target,grocery,120.58
+2024-07-21,Holiday Inn,hotel,172.64
+2024-07-22,Chipotle,restaurant,90.57
+2024-07-23,Lyft,transportation,39.45
+2024-07-24,Holiday Inn,hotel,259.1
+2024-07-25,Kroger,grocery,194.68
+2024-07-26,Uber,transportation,81.77
+2024-07-26,BP Gas,transportation,80.42
+2024-07-26,Comfort Inn,hotel,94.48
+2024-07-27,Radisson,hotel,168.41
+2024-07-27,Sheraton,hotel,295.02
+2024-07-29,Red Lobster,restaurant,10.03
+2024-07-30,Radisson,hotel,147.71
+2024-07-30,Marriott,hotel,173.82
+2024-07-30,Hyatt,hotel,296.27
+2024-07-30,Panera Bread,restaurant,115.64
+2024-07-31,Trader Joes,grocery,21.55
+2024-07-31,McDonald's,restaurant,87.01
+2024-08-01,Holiday Inn,hotel,309.99
+2024-08-02,Taco Bell,restaurant,29.94
+2024-08-02,Marriott,hotel,156.59
+2024-08-02,Chipotle,restaurant,31.58
+2024-08-02,Starbucks,restaurant,62.57
+2024-08-02,Starbucks,restaurant,74.3
+2024-08-03,Kroger,grocery,222.29
+2024-08-03,Hilton,hotel,269.13
+2024-08-03,Radisson,hotel,281.22
+2024-08-03,Olive Garden,restaurant,54.32
+2024-08-04,Metro Transit,transportation,41.12
+2024-08-04,76 Gas,transportation,42.21
+2024-08-05,Metro Transit,transportation,41.49
+2024-08-05,Target,grocery,187.65
+2024-08-05,The Cheesecake Factory,restaurant,114.43
+2024-08-06,Marriott,hotel,281.8
+2024-08-06,Red Lobster,restaurant,98.36
+2024-08-07,Kroger,grocery,237.14
+2024-08-08,Radisson,hotel,110.38
+2024-08-10,Marriott,hotel,231.98
+2024-08-10,Walmart,grocery,40.96
+2024-08-10,Metro Transit,transportation,78.31
+2024-08-10,Shell Gas Station,transportation,35.02
+2024-08-12,Metro Transit,transportation,58.24
+2024-08-12,Subway,restaurant,143.44
+2024-08-12,Kroger,grocery,235.31
+2024-08-13,Subway,restaurant,23.92
+2024-08-14,Marriott,hotel,195.72
+2024-08-15,Hilton,hotel,255.48
+2024-08-15,Uber,transportation,58.36
+2024-08-16,Safeway,grocery,61.88
+2024-08-16,Comfort Inn,hotel,207.67
+2024-08-17,McDonald's,restaurant,47.56
+2024-08-18,Shell Gas Station,transportation,24.93
+2024-08-18,Target,grocery,160.09
+2024-08-18,Amtrak,transportation,5.63
+2024-08-18,BP Gas,transportation,8.74
+2024-08-19,Trader Joes,grocery,248.71
+2024-08-19,Olive Garden,restaurant,44.1
+2024-08-20,Radisson,hotel,226.52
+2024-08-21,Radisson,hotel,201.49
+2024-08-21,Costco,grocery,131.98
+2024-08-22,Chick-fil-A,restaurant,89.55
+2024-08-22,Lyft,transportation,9.14
+2024-08-23,Panera Bread,restaurant,16.69
+2024-08-23,Metro Transit,transportation,58.07
+2024-08-24,Panera Bread,restaurant,46.5
+2024-08-24,Shell Gas Station,transportation,31.02
+2024-08-25,Marriott,hotel,109.81
+2024-08-26,Aldi,grocery,74.42
+2024-08-27,Walmart,grocery,131.33
+2024-08-27,Target,grocery,19.14
+2024-08-27,Marriott,hotel,103.57
+2024-08-27,Holiday Inn,hotel,255.96
+2024-08-28,Best Western,hotel,263.12
+2024-08-28,Olive Garden,restaurant,142.57
+2024-08-29,Olive Garden,restaurant,75.82
+2024-08-29,Target,grocery,107.81
+2024-08-30,Subway,restaurant,135.78
+2024-08-30,Lyft,transportation,76.28
+2024-08-30,Chevron,transportation,58.75
+2024-08-30,Red Lobster,restaurant,143.35
+2024-08-31,Walmart,grocery,134.52
+2024-09-01,Olive Garden,restaurant,8.8
+2024-09-01,Best Western,hotel,279.25
+2024-09-03,76 Gas,transportation,39.5
+2024-09-03,Hyatt,hotel,280.66
+2024-09-03,Chick-fil-A,restaurant,23.4
+2024-09-03,Trader Joes,grocery,222.67
+2024-09-04,Walmart,grocery,82.34
+2024-09-05,Metro Transit,transportation,35.83
+2024-09-06,Shell Gas Station,transportation,72.42
+2024-09-06,Chevron,transportation,84.74
+2024-09-07,Panera Bread,restaurant,62.75
+2024-09-07,Target,grocery,192.67
+2024-09-07,Holiday Inn,hotel,225.77
+2024-09-08,Kroger,grocery,127.59
+2024-09-08,Marriott,hotel,166.91
+2024-09-08,Starbucks,restaurant,20.63
+2024-09-09,Comfort Inn,hotel,282.73
+2024-09-09,Panera Bread,restaurant,109.81
+2024-09-11,Kroger,grocery,111.13
+2024-09-11,Holiday Inn,hotel,269.93
+2024-09-11,Taco Bell,restaurant,21.52
+2024-09-12,Target,grocery,50.83
+2024-09-12,76 Gas,transportation,43.66
+2024-09-15,Marriott,hotel,263.15
+2024-09-15,Subway,restaurant,116.48
+2024-09-15,Olive Garden,restaurant,147.57
+2024-09-16,Red Lobster,restaurant,40.27
+2024-09-16,Starbucks,restaurant,141.8
+2024-09-16,Walmart,grocery,101.53
+2024-09-16,Comfort Inn,hotel,154.8
+2024-09-17,Panera Bread,restaurant,137.16
+2024-09-17,Walmart,grocery,93.56
+2024-09-18,Hilton,hotel,192.52
+2024-09-18,BP Gas,transportation,7.7
+2024-09-18,Radisson,hotel,194.42
+2024-09-19,McDonald's,restaurant,76.96
+2024-09-19,Amtrak,transportation,39.53
+2024-09-20,Comfort Inn,hotel,137.05
+2024-09-20,Kroger,grocery,60.76
+2024-09-20,Trader Joes,grocery,188.49
+2024-09-20,Costco,grocery,86.58
+2024-09-21,McDonald's,restaurant,140.9
+2024-09-21,Uber,transportation,60.72
+2024-09-21,Kroger,grocery,184.36
+2024-09-22,Chipotle,restaurant,87.6
+2024-09-23,Walmart,grocery,79.65
+2024-09-23,Amtrak,transportation,69.88
+2024-09-24,Sheraton,hotel,242.37
+2024-09-26,Kroger,grocery,247.69
+2024-09-26,Marriott,hotel,269.88
+2024-09-28,Costco,grocery,234.33
+2024-09-28,Shell Gas Station,transportation,31.74
+2024-09-29,Marriott,hotel,163.25
+2024-09-29,76 Gas,transportation,43.85
+2024-09-29,Holiday Inn,hotel,193.57
+2024-10-01,Shell Gas Station,transportation,59.54
+2024-10-01,Chevron,transportation,39.84
+2024-10-02,Walmart,grocery,91.1
+2024-10-02,Chipotle,restaurant,55.36
+2024-10-03,Holiday Inn,hotel,161.12
+2024-10-03,76 Gas,transportation,25.26
+2024-10-04,Safeway,grocery,180.0
+2024-10-04,McDonald's,restaurant,105.79
+2024-10-05,Shell Gas Station,transportation,83.29
+2024-10-05,Kroger,grocery,232.64
+2024-10-08,Costco,grocery,106.0
+2024-10-08,Safeway,grocery,244.36
+2024-10-09,Walmart,grocery,132.88
+2024-10-09,Sheraton,hotel,273.23
+2024-10-09,Safeway,grocery,36.78
+2024-10-10,Trader Joes,grocery,102.08
+2024-10-10,Costco,grocery,123.81
+2024-10-10,Whole Foods,grocery,152.29
+2024-10-11,Whole Foods,grocery,158.59
+2024-10-11,Walmart,grocery,103.19
+2024-10-12,The Cheesecake Factory,restaurant,82.26
+2024-10-12,BP Gas,transportation,79.65
+2024-10-13,Radisson,hotel,104.44
+2024-10-14,Costco,grocery,229.74
+2024-10-14,McDonald's,restaurant,107.99
+2024-10-14,Sheraton,hotel,334.3
+2024-10-14,Kroger,grocery,215.04
+2024-10-15,Marriott,hotel,198.59
+2024-10-15,Trader Joes,grocery,233.51
+2024-10-17,Comfort Inn,hotel,304.22
+2024-10-17,Trader Joes,grocery,23.25
+2024-10-19,Aldi,grocery,227.03
+2024-10-20,Amtrak,transportation,63.37
+2024-10-20,Lyft,transportation,42.28
+2024-10-21,Chick-fil-A,restaurant,149.34
+2024-10-21,BP Gas,transportation,34.55
+2024-10-21,76 Gas,transportation,17.84
+2024-10-23,Lyft,transportation,62.75
+2024-10-24,Panera Bread,restaurant,29.62
+2024-10-25,Trader Joes,grocery,67.18
+2024-10-26,BP Gas,transportation,33.83
+2024-10-26,Hyatt,hotel,223.52
+2024-10-27,Subway,restaurant,52.79
+2024-10-27,Red Lobster,restaurant,27.79
+2024-10-27,Best Western,hotel,149.9
+2024-10-29,Panera Bread,restaurant,18.68
+2024-10-29,Olive Garden,restaurant,54.46
+2024-10-30,Target,grocery,29.91
+2024-10-31,Panera Bread,restaurant,130.43
+2024-11-01,Aldi,grocery,40.42
+2024-11-01,Chipotle,restaurant,23.05
+2024-11-01,Red Lobster,restaurant,117.12
+2024-11-02,Costco,grocery,205.74
+2024-11-02,Walmart,grocery,186.17
+2024-11-03,Chipotle,restaurant,105.41
+2024-11-03,Safeway,grocery,101.33
+2024-11-03,Olive Garden,restaurant,115.42
+2024-11-04,McDonald's,restaurant,28.17
+2024-11-04,Metro Transit,transportation,23.02
+2024-11-05,Lyft,transportation,57.62
+2024-11-05,Marriott,hotel,169.42
+2024-11-05,The Cheesecake Factory,restaurant,89.9
+2024-11-06,Chick-fil-A,restaurant,45.27
+2024-11-06,Subway,restaurant,89.87
+2024-11-06,Amtrak,transportation,10.73
+2024-11-07,Panera Bread,restaurant,120.35
+2024-11-07,Trader Joes,grocery,140.88
+2024-11-08,Marriott,hotel,204.27
+2024-11-09,McDonald's,restaurant,98.17
+2024-11-09,Target,grocery,103.23
+2024-11-09,Best Western,hotel,290.88
+2024-11-10,Shell Gas Station,transportation,10.03
+2024-11-10,Chipotle,restaurant,146.25
+2024-11-11,Metro Transit,transportation,11.34
+2024-11-11,Walmart,grocery,151.06
+2024-11-11,Best Western,hotel,121.48
+2024-11-11,Sheraton,hotel,154.18
+2024-11-12,Chevron,transportation,62.75
+2024-11-12,Chipotle,restaurant,148.91
+2024-11-12,Metro Transit,transportation,62.17
+2024-11-12,Comfort Inn,hotel,194.44
+2024-11-13,Panera Bread,restaurant,21.51
+2024-11-14,Hyatt,hotel,271.48
+2024-11-14,Target,grocery,216.33
+2024-11-14,Best Western,hotel,140.67
+2024-11-14,Trader Joes,grocery,199.42
+2024-11-15,Chick-fil-A,restaurant,126.57
+2024-11-15,Aldi,grocery,229.03
+2024-11-16,Whole Foods,grocery,147.21
+2024-11-16,Costco,grocery,79.34
+2024-11-18,Comfort Inn,hotel,279.4
+2024-11-19,Walmart,grocery,23.35
+2024-11-19,Panera Bread,restaurant,100.04
+2024-11-19,Comfort Inn,hotel,163.66
+2024-11-19,Aldi,grocery,185.98
+2024-11-20,Holiday Inn,hotel,238.31
+2024-11-22,Shell Gas Station,transportation,75.73
+2024-11-22,Uber,transportation,64.68
+2024-11-24,76 Gas,transportation,46.41
+2024-11-24,Walmart,grocery,213.66
+2024-11-24,Red Lobster,restaurant,106.61
+2024-11-25,BP Gas,transportation,83.99
+2024-11-26,Uber,transportation,51.35
+2024-11-27,Panera Bread,restaurant,47.57
+2024-11-28,76 Gas,transportation,69.51
+2024-11-30,Subway,restaurant,76.01
+2024-11-30,Metro Transit,transportation,43.19
+2024-12-01,Whole Foods,grocery,54.15
+2024-12-02,The Cheesecake Factory,restaurant,81.9
+2024-12-02,BP Gas,transportation,74.9
+2024-12-02,Hyatt,hotel,248.15
+2024-12-03,76 Gas,transportation,21.51
+2024-12-03,Starbucks,restaurant,101.23
+2024-12-04,Chick-fil-A,restaurant,25.62
+2024-12-05,Target,grocery,87.29
+2024-12-05,Safeway,grocery,71.83
+2024-12-05,Holiday Inn,hotel,219.83
+2024-12-05,Trader Joes,grocery,61.22
+2024-12-06,Holiday Inn,hotel,250.43
+2024-12-06,Taco Bell,restaurant,87.0
+2024-12-06,Chevron,transportation,66.21
+2024-12-07,Chick-fil-A,restaurant,121.33
+2024-12-07,Olive Garden,restaurant,41.77
+2024-12-07,Hyatt,hotel,173.77
+2024-12-07,Subway,restaurant,93.28
+2024-12-08,Uber,transportation,78.55
+2024-12-09,Hyatt,hotel,324.93
+2024-12-09,Radisson,hotel,320.76
+2024-12-09,Chevron,transportation,60.09
+2024-12-10,Shell Gas Station,transportation,32.5
+2024-12-10,Comfort Inn,hotel,208.46
+2024-12-10,Starbucks,restaurant,41.62
+2024-12-11,Chipotle,restaurant,75.55
+2024-12-11,Red Lobster,restaurant,125.33
+2024-12-12,Target,grocery,163.66
+2024-12-13,Chevron,transportation,52.64
+2024-12-13,Kroger,grocery,50.37
+2024-12-13,Costco,grocery,184.73
+2024-12-13,Lyft,transportation,63.4
+2024-12-14,BP Gas,transportation,14.01
+2024-12-14,Starbucks,restaurant,13.91
+2024-12-14,Subway,restaurant,27.48
+2024-12-14,Amtrak,transportation,43.29
+2024-12-15,Chick-fil-A,restaurant,73.84
+2024-12-15,Holiday Inn,hotel,116.45
+2024-12-15,76 Gas,transportation,11.72
+2024-12-15,Comfort Inn,hotel,310.46
+2024-12-15,Whole Foods,grocery,208.79
+2024-12-16,Chevron,transportation,84.8
+2024-12-16,Walmart,grocery,204.91
+2024-12-17,Metro Transit,transportation,55.06
+2024-12-17,Walmart,grocery,212.38
+2024-12-17,Panera Bread,restaurant,106.22
+2024-12-17,BP Gas,transportation,84.84
+2024-12-17,Uber,transportation,44.27
+2024-12-18,Target,grocery,243.69
+2024-12-18,Marriott,hotel,236.09
+2024-12-19,The Cheesecake Factory,restaurant,109.37
+2024-12-20,BP Gas,transportation,19.14
+2024-12-22,Subway,restaurant,141.71
+2024-12-23,Whole Foods,grocery,230.94
+2024-12-23,Safeway,grocery,236.56
+2024-12-23,Sheraton,hotel,282.82
+2024-12-24,Starbucks,restaurant,85.66
+2024-12-25,Metro Transit,transportation,8.01
+2024-12-25,Red Lobster,restaurant,29.42
+2024-12-25,Kroger,grocery,89.95
+2024-12-26,Amtrak,transportation,78.75
+2024-12-26,76 Gas,transportation,68.33
+2024-12-27,Olive Garden,restaurant,44.86
+2024-12-27,Shell Gas Station,transportation,5.99
+2024-12-28,Whole Foods,grocery,45.46
+2024-12-28,Sheraton,hotel,211.71
+2024-12-29,Amtrak,transportation,39.71
+2024-12-29,McDonald's,restaurant,141.41
+2024-12-30,Holiday Inn,hotel,302.8
+2024-12-30,Whole Foods,grocery,109.64
+2024-12-31,Olive Garden,restaurant,54.93

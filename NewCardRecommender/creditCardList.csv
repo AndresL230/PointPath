@@ -1,0 +1,11 @@
+name,type,annual_fee,credit_level,base_rate,grocery_rate,dining_rate,gas_rate,travel_rate,rotating_flag,spend_cap,portal_flag
+CapitalOne_Quicksilver,0,0,2,0.015,0,0,0,0,0,0,0
+Discover_It_CashBack,0,0,1,0.01,0.05,0.01,0.01,0,1,1500,0
+Amex_BlueCash_Everyday,0,0,2,0.01,0.03,0.03,0.01,0,0,0,0
+WellsFargo_ActiveCash,0,0,2,0.02,0,0,0,0,0,0,0
+Chase_Freedom_Flex,0,0,2,0.01,0.05,0.03,0.01,0.05,1,1500,1
+CapitalOne_SavorOne,0,0,2,0.01,0.03,0.03,0.01,0.05,0,0,1
+Chase_Sapphire_Preferred,1,95,2,0.01,0.03,0.03,0.02,0.05,0,0,1
+CapitalOne_Venture,1,95,2,0.02,0,0,0,0.05,0,0,1
+Amex_Gold,1,250,3,0.01,0.04,0.04,0.01,0.03,0,0,0
+CapitalOne_VentureX,1,395,3,0.02,0,0,0,0.10,0,0,1

@@ -1,0 +1,548 @@
+Date,Merchant,Category,Amount,Card_Used
+2023-01-01,Costco,grocery,234.67,citi-custom-cash
+2023-01-01,Lyft,transportation,20.12,citi-custom-cash
+2023-01-01,Marriott,hotel,358.56,chase-sapphire-reserve
+2023-01-02,Taco Bell,restaurant,143.24,amex-gold
+2023-01-04,Chick-fil-A,restaurant,149.81,citi-custom-cash
+2023-01-05,Olive Garden,restaurant,23.57,chase-freedom-unlimited
+2023-01-07,Chick-fil-A,restaurant,105.31,amex-gold
+2023-01-08,Whole Foods,grocery,86.35,amex-gold
+2023-01-10,Panera Bread,restaurant,43.78,chase-sapphire-preferred
+2023-01-10,Panera Bread,restaurant,45.88,wells-fargo-autograph
+2023-01-11,Subway,restaurant,114.41,capital-one-savor
+2023-01-12,Chipotle,restaurant,66.07,amex-gold
+2023-01-15,Walmart,grocery,112.25,citi-custom-cash
+2023-01-15,BP Gas,transportation,58.24,capital-one-quicksilver
+2023-01-16,Taco Bell,restaurant,69.55,citi-premier
+2023-01-17,Olive Garden,restaurant,50.74,citi-custom-cash
+2023-01-17,Taco Bell,restaurant,16.88,citi-custom-cash
+2023-01-18,McDonald's,restaurant,71.7,amex-gold
+2023-01-22,Target,grocery,183.83,amex-blue-cash-preferred
+2023-01-22,The Cheesecake Factory,restaurant,140.65,amex-gold
+2023-01-25,McDonald's,restaurant,130.91,citi-premier
+2023-01-27,McDonald's,restaurant,82.39,capital-one-savor
+2023-01-27,Chipotle,restaurant,24.67,capital-one-savor
+2023-01-29,Kroger,grocery,148.78,amex-blue-cash-preferred
+2023-01-29,Metro Transit,transportation,44.04,wells-fargo-autograph
+2023-02-03,Taco Bell,restaurant,63.87,citi-custom-cash
+2023-02-04,Panera Bread,restaurant,38.6,citi-custom-cash
+2023-02-04,Panera Bread,restaurant,100.55,amex-gold
+2023-02-04,Subway,restaurant,61.39,wells-fargo-autograph
+2023-02-05,Safeway,grocery,217.08,amex-gold
+2023-02-06,Chick-fil-A,restaurant,141.61,citi-custom-cash
+2023-02-07,Panera Bread,restaurant,75.59,chase-sapphire-preferred
+2023-02-08,Amtrak,transportation,281.01,citi-custom-cash
+2023-02-10,Olive Garden,restaurant,86.8,citi-custom-cash
+2023-02-12,Target,grocery,114.77,chase-sapphire-preferred
+2023-02-12,Lyft,transportation,80.42,bofa-customized-cash
+2023-02-12,McDonald's,restaurant,68.41,chase-sapphire-preferred
+2023-02-13,Radisson,hotel,392.28,amex-platinum
+2023-02-14,Panera Bread,restaurant,135.07,citi-custom-cash
+2023-02-15,Olive Garden,restaurant,35.9,citi-custom-cash
+2023-02-18,Chick-fil-A,restaurant,50.2,amex-gold
+2023-02-19,Whole Foods,grocery,85.7,capital-one-savor
+2023-02-19,McDonald's,restaurant,34.05,citi-custom-cash
+2023-02-19,Chick-fil-A,restaurant,15.43,bofa-premium-rewards
+2023-02-20,Chipotle,restaurant,148.04,chase-sapphire-preferred
+2023-02-23,Olive Garden,restaurant,104.56,chase-sapphire-preferred
+2023-02-26,Safeway,grocery,203.55,wells-fargo-active-cash
+2023-02-26,Lyft,transportation,51.83,citi-custom-cash
+2023-02-28,Starbucks,restaurant,37.88,amex-gold
+2023-03-01,Olive Garden,restaurant,149.39,citi-custom-cash
+2023-03-03,Taco Bell,restaurant,92.85,chase-freedom-unlimited
+2023-03-03,Red Lobster,restaurant,27.01,citi-custom-cash
+2023-03-05,Safeway,grocery,210.48,citi-custom-cash
+2023-03-05,McDonald's,restaurant,123.36,citi-custom-cash
+2023-03-06,The Cheesecake Factory,restaurant,111.93,capital-one-savor
+2023-03-09,Taco Bell,restaurant,132.56,bofa-premium-rewards
+2023-03-10,Taco Bell,restaurant,111.74,chase-sapphire-preferred
+2023-03-12,Whole Foods,grocery,155.47,amex-gold
+2023-03-12,Metro Transit,transportation,45.22,bofa-customized-cash
+2023-03-15,Olive Garden,restaurant,56.34,chase-freedom-unlimited
+2023-03-16,Chick-fil-A,restaurant,139.5,amex-gold
+2023-03-18,Amtrak,transportation,705.83,bofa-customized-cash
+2023-03-18,McDonald's,restaurant,69.88,amex-gold
+2023-03-19,Costco,grocery,191.43,amex-blue-cash-preferred
+2023-03-19,The Cheesecake Factory,restaurant,137.6,amex-gold
+2023-03-21,Chick-fil-A,restaurant,141.38,amex-gold
+2023-03-25,Subway,restaurant,51.29,citi-custom-cash
+2023-03-26,Aldi,grocery,189.46,amex-blue-cash-preferred
+2023-03-26,Lyft,transportation,19.94,wells-fargo-autograph
+2023-03-28,Taco Bell,restaurant,140.98,citi-custom-cash
+2023-03-30,The Cheesecake Factory,restaurant,104.11,capital-one-savor
+2023-03-31,McDonald's,restaurant,44.97,wells-fargo-autograph
+2023-04-02,Target,grocery,166.2,citi-custom-cash
+2023-04-02,The Cheesecake Factory,restaurant,65.3,citi-custom-cash
+2023-04-03,Hilton,hotel,322.93,capital-one-venture
+2023-04-04,The Cheesecake Factory,restaurant,63.79,chase-sapphire-preferred
+2023-04-06,Olive Garden,restaurant,128.16,capital-one-savor
+2023-04-06,McDonald's,restaurant,85.1,chase-sapphire-preferred
+2023-04-09,Trader Joes,grocery,188.22,capital-one-savor
+2023-04-09,Amtrak,transportation,15.13,citi-custom-cash
+2023-04-09,Chick-fil-A,restaurant,114.9,capital-one-savor
+2023-04-10,Panera Bread,restaurant,45.3,citi-custom-cash
+2023-04-12,The Cheesecake Factory,restaurant,117.08,capital-one-savor
+2023-04-13,Starbucks,restaurant,146.51,amex-gold
+2023-04-16,Safeway,grocery,249.89,amex-blue-cash-preferred
+2023-04-19,McDonald's,restaurant,105.71,amex-gold
+2023-04-20,Olive Garden,restaurant,113.01,capital-one-savor
+2023-04-22,McDonald's,restaurant,100.17,capital-one-savor
+2023-04-23,Trader Joes,grocery,212.66,amex-blue-cash-preferred
+2023-04-23,BP Gas,transportation,79.31,bofa-customized-cash
+2023-04-24,Red Lobster,restaurant,140.23,capital-one-savor
+2023-04-25,Taco Bell,restaurant,34.92,chase-sapphire-preferred
+2023-04-25,Chick-fil-A,restaurant,52.93,chase-freedom-unlimited
+2023-04-27,Subway,restaurant,39.68,capital-one-savor
+2023-04-30,Trader Joes,grocery,201.24,amex-blue-cash-preferred
+2023-05-01,Subway,restaurant,50.72,chase-freedom-unlimited
+2023-05-01,Olive Garden,restaurant,70.97,amex-gold
+2023-05-06,Hilton,hotel,212.46,amex-platinum
+2023-05-06,Chick-fil-A,restaurant,127.38,amex-gold
+2023-05-07,Safeway,grocery,174.4,amex-blue-cash-preferred
+2023-05-07,Lyft,transportation,71.69,citi-custom-cash
+2023-05-09,Olive Garden,restaurant,109.87,amex-gold
+2023-05-10,Taco Bell,restaurant,21.47,wells-fargo-autograph
+2023-05-11,Panera Bread,restaurant,39.92,amex-gold
+2023-05-14,Costco,grocery,180.71,chase-freedom-flex
+2023-05-14,McDonald's,restaurant,103.85,chase-sapphire-preferred
+2023-05-14,Chipotle,restaurant,117.75,citi-custom-cash
+2023-05-15,Red Lobster,restaurant,26.97,citi-custom-cash
+2023-05-20,Taco Bell,restaurant,125.62,citi-premier
+2023-05-21,Kroger,grocery,103.13,chase-sapphire-preferred
+2023-05-21,BP Gas,transportation,28.81,citi-custom-cash
+2023-05-21,Starbucks,restaurant,112.66,wells-fargo-autograph
+2023-05-22,Starbucks,restaurant,23.85,citi-premier
+2023-05-23,McDonald's,restaurant,127.95,citi-custom-cash
+2023-05-24,McDonald's,restaurant,46.09,capital-one-savor
+2023-05-28,Safeway,grocery,223.64,citi-custom-cash
+2023-05-29,McDonald's,restaurant,144.37,capital-one-savor
+2023-05-30,Starbucks,restaurant,72.77,bofa-premium-rewards
+2023-06-03,Chipotle,restaurant,141.08,citi-custom-cash
+2023-06-04,Aldi,grocery,249.85,citi-custom-cash
+2023-06-04,Amtrak,transportation,36.16,bofa-customized-cash
+2023-06-04,Chipotle,restaurant,58.58,citi-custom-cash
+2023-06-06,Chick-fil-A,restaurant,59.84,citi-custom-cash
+2023-06-06,Chipotle,restaurant,95.8,citi-custom-cash
+2023-06-08,Panera Bread,restaurant,32.7,amex-gold
+2023-06-10,Best Western,hotel,156.03,amex-platinum
+2023-06-11,Safeway,grocery,181.27,capital-one-savor
+2023-06-11,McDonald's,restaurant,28.07,capital-one-savor
+2023-06-15,Chipotle,restaurant,33.99,capital-one-savor
+2023-06-16,The Cheesecake Factory,restaurant,131.79,capital-one-savor
+2023-06-17,McDonald's,restaurant,77.2,bofa-premium-rewards
+2023-06-18,Aldi,grocery,159.94,amex-blue-cash-preferred
+2023-06-18,BP Gas,transportation,30.56,wells-fargo-autograph
+2023-06-18,Panera Bread,restaurant,81.95,amex-gold
+2023-06-19,McDonald's,restaurant,29.37,amex-gold
+2023-06-20,Chipotle,restaurant,149.41,citi-custom-cash
+2023-06-21,The Cheesecake Factory,restaurant,141.93,amex-gold
+2023-06-25,Safeway,grocery,143.83,citi-custom-cash
+2023-06-26,Starbucks,restaurant,37.24,citi-custom-cash
+2023-06-26,Red Lobster,restaurant,10.42,amex-gold
+2023-06-27,Starbucks,restaurant,9.74,chase-freedom-unlimited
+2023-06-30,Red Lobster,restaurant,16.36,amex-gold
+2023-07-02,Walmart,grocery,155.36,citi-custom-cash
+2023-07-02,Metro Transit,transportation,48.39,bofa-customized-cash
+2023-07-03,The Cheesecake Factory,restaurant,119.14,amex-gold
+2023-07-08,Chick-fil-A,restaurant,12.5,capital-one-savor
+2023-07-08,Olive Garden,restaurant,18.74,chase-sapphire-preferred
+2023-07-09,Safeway,grocery,104.91,amex-blue-cash-preferred
+2023-07-09,Taco Bell,restaurant,117.79,amex-gold
+2023-07-09,Chick-fil-A,restaurant,71.88,citi-custom-cash
+2023-07-13,Comfort Inn,hotel,268.41,chase-sapphire-reserve
+2023-07-13,Olive Garden,restaurant,26.66,citi-custom-cash
+2023-07-16,Kroger,grocery,167.19,amex-blue-cash-preferred
+2023-07-16,BP Gas,transportation,54.0,wells-fargo-active-cash
+2023-07-16,McDonald's,restaurant,108.37,citi-custom-cash
+2023-07-21,Chipotle,restaurant,76.26,capital-one-savor
+2023-07-21,Starbucks,restaurant,67.33,capital-one-savor
+2023-07-22,Red Lobster,restaurant,27.2,capital-one-savor
+2023-07-23,Safeway,grocery,201.88,citi-custom-cash
+2023-07-23,Red Lobster,restaurant,76.08,capital-one-savor
+2023-07-24,Chick-fil-A,restaurant,111.52,wells-fargo-autograph
+2023-07-24,Chipotle,restaurant,122.27,capital-one-savor
+2023-07-29,Starbucks,restaurant,149.52,citi-custom-cash
+2023-07-30,Whole Foods,grocery,228.31,chase-freedom-flex
+2023-07-30,Uber,transportation,75.54,citi-custom-cash
+2023-07-30,Subway,restaurant,99.23,citi-custom-cash
+2023-08-01,Panera Bread,restaurant,23.47,amex-gold
+2023-08-02,Starbucks,restaurant,116.4,amex-gold
+2023-08-04,Chipotle,restaurant,16.31,chase-sapphire-preferred
+2023-08-06,Trader Joes,grocery,142.11,chase-sapphire-preferred
+2023-08-06,Olive Garden,restaurant,73.18,wells-fargo-autograph
+2023-08-07,Starbucks,restaurant,97.23,capital-one-savor
+2023-08-10,Red Lobster,restaurant,106.21,amex-gold
+2023-08-12,Radisson,hotel,361.98,chase-sapphire-reserve
+2023-08-13,Trader Joes,grocery,145.25,citi-double-cash
+2023-08-13,Metro Transit,transportation,63.49,citi-custom-cash
+2023-08-15,McDonald's,restaurant,109.92,capital-one-savor
+2023-08-16,Panera Bread,restaurant,55.35,chase-freedom-unlimited
+2023-08-18,Starbucks,restaurant,140.27,chase-sapphire-preferred
+2023-08-20,Walmart,grocery,237.28,citi-custom-cash
+2023-08-21,The Cheesecake Factory,restaurant,76.68,citi-custom-cash
+2023-08-24,Red Lobster,restaurant,53.15,amex-gold
+2023-08-24,Subway,restaurant,73.14,wells-fargo-autograph
+2023-08-27,Target,grocery,205.36,amex-blue-cash-preferred
+2023-08-27,Metro Transit,transportation,36.8,wells-fargo-autograph
+2023-08-27,Red Lobster,restaurant,137.48,citi-custom-cash
+2023-08-30,Taco Bell,restaurant,118.99,chase-sapphire-preferred
+2023-08-30,Taco Bell,restaurant,60.95,amex-gold
+2023-08-30,Chipotle,restaurant,9.53,citi-custom-cash
+2023-09-03,Costco,grocery,149.66,amex-blue-cash-preferred
+2023-09-03,Red Lobster,restaurant,61.05,chase-freedom-unlimited
+2023-09-05,Olive Garden,restaurant,48.61,citi-premier
+2023-09-05,McDonald's,restaurant,139.11,citi-custom-cash
+2023-09-07,McDonald's,restaurant,79.25,citi-custom-cash
+2023-09-10,Kroger,grocery,196.58,citi-custom-cash
+2023-09-10,Chevron,transportation,20.06,wells-fargo-autograph
+2023-09-10,Chipotle,restaurant,35.58,bofa-premium-rewards
+2023-09-11,Panera Bread,restaurant,55.23,citi-custom-cash
+2023-09-15,Taco Bell,restaurant,62.81,citi-custom-cash
+2023-09-17,Trader Joes,grocery,217.58,citi-double-cash
+2023-09-21,Red Lobster,restaurant,93.0,citi-custom-cash
+2023-09-22,Starbucks,restaurant,120.45,capital-one-savor
+2023-09-23,Panera Bread,restaurant,30.8,capital-one-savor
+2023-09-24,Kroger,grocery,222.84,amex-blue-cash-preferred
+2023-09-24,Shell Gas Station,transportation,39.1,bofa-customized-cash
+2023-09-24,McDonald's,restaurant,123.34,citi-premier
+2023-09-26,Panera Bread,restaurant,62.42,capital-one-savor
+2023-09-28,Chick-fil-A,restaurant,16.53,amex-gold
+2023-09-29,McDonald's,restaurant,39.02,capital-one-savor
+2023-10-01,Target,grocery,150.42,wells-fargo-active-cash
+2023-10-03,Subway,restaurant,82.53,citi-custom-cash
+2023-10-05,Panera Bread,restaurant,31.24,citi-custom-cash
+2023-10-06,McDonald's,restaurant,91.68,citi-custom-cash
+2023-10-08,Aldi,grocery,91.02,citi-custom-cash
+2023-10-08,76 Gas,transportation,21.19,wells-fargo-autograph
+2023-10-08,Sheraton,hotel,176.96,capital-one-quicksilver
+2023-10-08,Chick-fil-A,restaurant,115.56,capital-one-savor
+2023-10-10,Olive Garden,restaurant,51.79,citi-custom-cash
+2023-10-11,Chick-fil-A,restaurant,103.84,citi-custom-cash
+2023-10-11,Chick-fil-A,restaurant,50.79,amex-gold
+2023-10-15,Aldi,grocery,143.13,chase-sapphire-preferred
+2023-10-15,Panera Bread,restaurant,135.79,amex-gold
+2023-10-18,Red Lobster,restaurant,47.3,citi-custom-cash
+2023-10-18,Red Lobster,restaurant,12.52,capital-one-savor
+2023-10-22,Safeway,grocery,121.41,wells-fargo-active-cash
+2023-10-22,Lyft,transportation,53.67,wells-fargo-autograph
+2023-10-25,Chipotle,restaurant,143.58,capital-one-savor
+2023-10-26,Subway,restaurant,15.24,amex-gold
+2023-10-26,Red Lobster,restaurant,92.77,capital-one-savor
+2023-10-28,Olive Garden,restaurant,12.57,amex-gold
+2023-10-29,Trader Joes,grocery,166.91,chase-sapphire-preferred
+2023-11-01,Panera Bread,restaurant,106.87,capital-one-savor
+2023-11-04,Red Lobster,restaurant,48.66,citi-custom-cash
+2023-11-04,The Cheesecake Factory,restaurant,62.48,chase-sapphire-preferred
+2023-11-05,Safeway,grocery,108.61,amex-gold
+2023-11-05,Metro Transit,transportation,83.27,citi-custom-cash
+2023-11-05,Chick-fil-A,restaurant,114.05,bofa-premium-rewards
+2023-11-06,Subway,restaurant,101.22,citi-premier
+2023-11-07,Chick-fil-A,restaurant,109.06,citi-custom-cash
+2023-11-12,Costco,grocery,139.61,citi-custom-cash
+2023-11-12,Panera Bread,restaurant,64.44,capital-one-savor
+2023-11-14,Olive Garden,restaurant,78.09,bofa-premium-rewards
+2023-11-15,Olive Garden,restaurant,121.12,capital-one-savor
+2023-11-18,Red Lobster,restaurant,106.9,citi-custom-cash
+2023-11-19,Trader Joes,grocery,141.72,capital-one-savor
+2023-11-19,BP Gas,transportation,55.96,bofa-customized-cash
+2023-11-20,Olive Garden,restaurant,131.15,amex-gold
+2023-11-23,Chick-fil-A,restaurant,14.11,citi-custom-cash
+2023-11-23,Panera Bread,restaurant,118.03,chase-sapphire-preferred
+2023-11-26,Target,grocery,112.95,amex-gold
+2023-11-27,Panera Bread,restaurant,92.17,capital-one-savor
+2023-11-28,McDonald's,restaurant,39.93,capital-one-savor
+2023-11-29,McDonald's,restaurant,108.86,bofa-premium-rewards
+2023-12-01,Comfort Inn,hotel,418.66,capital-one-venture
+2023-12-03,Aldi,grocery,106.82,amex-gold
+2023-12-03,Uber,transportation,53.03,wells-fargo-autograph
+2023-12-04,Red Lobster,restaurant,84.05,amex-gold
+2023-12-05,Red Lobster,restaurant,118.11,amex-gold
+2023-12-06,Starbucks,restaurant,134.74,capital-one-savor
+2023-12-10,Kroger,grocery,155.46,citi-custom-cash
+2023-12-10,Chipotle,restaurant,138.84,citi-custom-cash
+2023-12-10,McDonald's,restaurant,109.48,citi-custom-cash
+2023-12-15,The Cheesecake Factory,restaurant,64.03,amex-gold
+2023-12-16,Subway,restaurant,125.52,amex-gold
+2023-12-17,Walmart,grocery,102.34,capital-one-savor
+2023-12-17,Amtrak,transportation,30.78,wells-fargo-autograph
+2023-12-17,McDonald's,restaurant,96.27,amex-gold
+2023-12-19,Red Lobster,restaurant,45.22,amex-gold
+2023-12-20,Olive Garden,restaurant,122.19,citi-custom-cash
+2023-12-21,Taco Bell,restaurant,137.23,citi-custom-cash
+2023-12-24,Whole Foods,grocery,111.61,chase-sapphire-preferred
+2023-12-26,Red Lobster,restaurant,71.05,citi-custom-cash
+2023-12-27,Starbucks,restaurant,108.29,capital-one-savor
+2023-12-30,McDonald's,restaurant,65.79,wells-fargo-autograph
+2023-12-30,Olive Garden,restaurant,71.53,citi-premier
+2023-12-31,Costco,grocery,129.14,citi-custom-cash
+2023-12-31,BP Gas,transportation,80.01,citi-custom-cash
+2023-12-31,Red Lobster,restaurant,130.68,wells-fargo-autograph
+2023-12-31,Chick-fil-A,restaurant,87.69,amex-gold
+2024-01-01,Chipotle,restaurant,26.2,capital-one-savor
+2024-01-07,Kroger,grocery,118.88,amex-blue-cash-preferred
+2024-01-07,Subway,restaurant,21.3,amex-gold
+2024-01-07,Chick-fil-A,restaurant,31.17,citi-custom-cash
+2024-01-09,McDonald's,restaurant,68.23,amex-gold
+2024-01-11,Taco Bell,restaurant,62.56,wells-fargo-autograph
+2024-01-14,Kroger,grocery,150.41,citi-custom-cash
+2024-01-14,Chevron,transportation,81.05,bofa-customized-cash
+2024-01-19,Chick-fil-A,restaurant,141.72,citi-custom-cash
+2024-01-19,McDonald's,restaurant,71.65,capital-one-savor
+2024-01-20,Chipotle,restaurant,35.77,amex-gold
+2024-01-21,Aldi,grocery,191.69,chase-sapphire-preferred
+2024-01-22,Amtrak,transportation,411.73,wells-fargo-autograph
+2024-01-23,The Cheesecake Factory,restaurant,13.04,citi-custom-cash
+2024-01-25,The Cheesecake Factory,restaurant,137.52,citi-custom-cash
+2024-01-26,Olive Garden,restaurant,42.21,capital-one-savor
+2024-01-28,Safeway,grocery,161.05,citi-double-cash
+2024-01-28,BP Gas,transportation,84.45,capital-one-quicksilver
+2024-01-28,Sheraton,hotel,277.81,chase-sapphire-reserve
+2024-01-30,Chick-fil-A,restaurant,37.17,amex-gold
+2024-02-01,Panera Bread,restaurant,110.34,amex-gold
+2024-02-02,Chick-fil-A,restaurant,22.91,capital-one-savor
+2024-02-03,Olive Garden,restaurant,23.17,amex-gold
+2024-02-04,Safeway,grocery,245.68,amex-blue-cash-preferred
+2024-02-04,Red Lobster,restaurant,139.14,citi-custom-cash
+2024-02-10,Panera Bread,restaurant,140.9,bofa-premium-rewards
+2024-02-10,Subway,restaurant,15.75,citi-custom-cash
+2024-02-11,Costco,grocery,183.8,amex-blue-cash-preferred
+2024-02-11,Lyft,transportation,40.93,citi-custom-cash
+2024-02-14,The Cheesecake Factory,restaurant,132.31,amex-gold
+2024-02-15,Chipotle,restaurant,44.41,citi-custom-cash
+2024-02-16,Amtrak,transportation,427.47,citi-custom-cash
+2024-02-16,Olive Garden,restaurant,37.84,capital-one-savor
+2024-02-18,Target,grocery,217.17,amex-blue-cash-preferred
+2024-02-22,Panera Bread,restaurant,35.83,citi-custom-cash
+2024-02-22,Olive Garden,restaurant,41.61,capital-one-savor
+2024-02-23,McDonald's,restaurant,136.14,amex-gold
+2024-02-25,Safeway,grocery,222.79,amex-gold
+2024-02-25,Uber,transportation,26.65,citi-custom-cash
+2024-02-29,Taco Bell,restaurant,143.99,amex-gold
+2024-02-29,Starbucks,restaurant,12.09,capital-one-savor
+2024-03-01,Olive Garden,restaurant,50.81,capital-one-savor
+2024-03-03,Trader Joes,grocery,204.51,chase-freedom-flex
+2024-03-07,Chick-fil-A,restaurant,65.16,citi-custom-cash
+2024-03-08,The Cheesecake Factory,restaurant,99.09,citi-premier
+2024-03-09,The Cheesecake Factory,restaurant,106.5,capital-one-savor
+2024-03-10,Aldi,grocery,160.47,citi-custom-cash
+2024-03-10,76 Gas,transportation,45.63,wells-fargo-active-cash
+2024-03-12,Taco Bell,restaurant,67.07,wells-fargo-autograph
+2024-03-12,Chick-fil-A,restaurant,14.02,citi-custom-cash
+2024-03-12,McDonald's,restaurant,8.65,amex-gold
+2024-03-14,Radisson,hotel,431.66,chase-sapphire-reserve
+2024-03-17,Kroger,grocery,103.55,chase-freedom-flex
+2024-03-17,McDonald's,restaurant,109.11,citi-custom-cash
+2024-03-20,The Cheesecake Factory,restaurant,63.12,amex-gold
+2024-03-22,McDonald's,restaurant,90.5,chase-freedom-unlimited
+2024-03-24,Costco,grocery,143.26,amex-gold
+2024-03-24,Chevron,transportation,70.18,chase-sapphire-preferred
+2024-03-24,McDonald's,restaurant,46.68,wells-fargo-autograph
+2024-03-25,McDonald's,restaurant,55.28,chase-freedom-unlimited
+2024-03-26,Olive Garden,restaurant,57.96,amex-gold
+2024-03-27,Panera Bread,restaurant,143.24,amex-gold
+2024-03-31,Trader Joes,grocery,246.61,amex-gold
+2024-04-02,Starbucks,restaurant,133.76,amex-gold
+2024-04-05,Chipotle,restaurant,12.18,capital-one-savor
+2024-04-06,Chipotle,restaurant,137.48,citi-premier
+2024-04-07,Target,grocery,233.42,amex-gold
+2024-04-07,76 Gas,transportation,56.02,chase-sapphire-preferred
+2024-04-07,Chick-fil-A,restaurant,17.12,amex-gold
+2024-04-10,Taco Bell,restaurant,41.64,citi-custom-cash
+2024-04-11,Chipotle,restaurant,138.35,citi-premier
+2024-04-13,Subway,restaurant,84.27,amex-gold
+2024-04-14,Safeway,grocery,125.9,amex-gold
+2024-04-14,McDonald's,restaurant,148.1,citi-premier
+2024-04-17,Panera Bread,restaurant,141.64,amex-gold
+2024-04-17,Taco Bell,restaurant,147.52,amex-gold
+2024-04-21,Target,grocery,225.32,amex-blue-cash-preferred
+2024-04-21,76 Gas,transportation,23.84,wells-fargo-autograph
+2024-04-22,Sheraton,hotel,260.52,amex-gold
+2024-04-24,Panera Bread,restaurant,17.19,bofa-premium-rewards
+2024-04-25,Starbucks,restaurant,11.7,amex-gold
+2024-04-26,Chipotle,restaurant,97.58,capital-one-savor
+2024-04-26,Starbucks,restaurant,46.56,citi-custom-cash
+2024-04-28,Walmart,grocery,159.31,citi-custom-cash
+2024-04-28,Starbucks,restaurant,26.4,bofa-premium-rewards
+2024-05-02,Subway,restaurant,123.76,citi-custom-cash
+2024-05-03,The Cheesecake Factory,restaurant,34.51,capital-one-savor
+2024-05-03,Chipotle,restaurant,16.5,wells-fargo-autograph
+2024-05-05,Target,grocery,241.69,amex-blue-cash-preferred
+2024-05-05,Uber,transportation,68.94,bofa-customized-cash
+2024-05-05,Subway,restaurant,61.93,capital-one-savor
+2024-05-08,The Cheesecake Factory,restaurant,125.56,amex-gold
+2024-05-11,Taco Bell,restaurant,65.84,capital-one-savor
+2024-05-12,Walmart,grocery,149.34,amex-blue-cash-preferred
+2024-05-12,Panera Bread,restaurant,131.87,wells-fargo-autograph
+2024-05-13,McDonald's,restaurant,102.51,amex-gold
+2024-05-15,McDonald's,restaurant,147.64,capital-one-savor
+2024-05-17,Panera Bread,restaurant,14.69,capital-one-savor
+2024-05-19,Target,grocery,232.82,citi-custom-cash
+2024-05-19,Shell Gas Station,transportation,28.74,wells-fargo-active-cash
+2024-05-19,The Cheesecake Factory,restaurant,106.27,bofa-premium-rewards
+2024-05-19,Subway,restaurant,128.73,chase-sapphire-preferred
+2024-05-20,Taco Bell,restaurant,21.94,citi-custom-cash
+2024-05-24,Hyatt,hotel,442.3,capital-one-venture
+2024-05-26,Walmart,grocery,118.42,citi-custom-cash
+2024-05-26,Panera Bread,restaurant,16.79,amex-gold
+2024-05-28,Subway,restaurant,50.29,amex-gold
+2024-05-29,Red Lobster,restaurant,80.44,wells-fargo-autograph
+2024-05-31,Red Lobster,restaurant,81.92,citi-custom-cash
+2024-06-02,Whole Foods,grocery,88.95,citi-double-cash
+2024-06-02,Lyft,transportation,59.0,citi-custom-cash
+2024-06-04,Panera Bread,restaurant,25.88,capital-one-savor
+2024-06-04,Chipotle,restaurant,61.13,citi-custom-cash
+2024-06-08,Red Lobster,restaurant,100.91,amex-gold
+2024-06-09,Safeway,grocery,90.51,citi-double-cash
+2024-06-10,Olive Garden,restaurant,125.48,citi-custom-cash
+2024-06-11,The Cheesecake Factory,restaurant,145.33,amex-gold
+2024-06-13,Subway,restaurant,117.61,amex-gold
+2024-06-14,Chick-fil-A,restaurant,84.4,citi-custom-cash
+2024-06-16,Whole Foods,grocery,101.67,wells-fargo-active-cash
+2024-06-16,BP Gas,transportation,53.76,wells-fargo-autograph
+2024-06-17,The Cheesecake Factory,restaurant,59.9,amex-gold
+2024-06-18,Chick-fil-A,restaurant,137.75,capital-one-savor
+2024-06-19,Starbucks,restaurant,120.33,citi-custom-cash
+2024-06-21,Panera Bread,restaurant,52.86,amex-gold
+2024-06-23,Walmart,grocery,155.11,citi-double-cash
+2024-06-24,Olive Garden,restaurant,27.33,chase-freedom-unlimited
+2024-06-26,McDonald's,restaurant,132.96,amex-gold
+2024-06-27,Subway,restaurant,105.54,amex-gold
+2024-06-27,McDonald's,restaurant,58.52,bofa-premium-rewards
+2024-06-30,Aldi,grocery,156.21,capital-one-savor
+2024-06-30,BP Gas,transportation,40.41,citi-custom-cash
+2024-07-01,The Cheesecake Factory,restaurant,30.23,wells-fargo-autograph
+2024-07-02,Hyatt,hotel,431.76,capital-one-venture
+2024-07-02,Olive Garden,restaurant,19.04,capital-one-savor
+2024-07-04,Chick-fil-A,restaurant,44.96,capital-one-savor
+2024-07-05,Red Lobster,restaurant,19.39,citi-premier
+2024-07-07,Walmart,grocery,80.74,amex-gold
+2024-07-07,Subway,restaurant,14.79,citi-custom-cash
+2024-07-13,The Cheesecake Factory,restaurant,39.43,capital-one-savor
+2024-07-13,Chick-fil-A,restaurant,53.51,capital-one-savor
+2024-07-14,Kroger,grocery,199.81,chase-sapphire-preferred
+2024-07-14,Lyft,transportation,75.29,citi-double-cash
+2024-07-14,McDonald's,restaurant,16.18,amex-gold
+2024-07-15,Chipotle,restaurant,83.74,capital-one-savor
+2024-07-16,Chick-fil-A,restaurant,73.92,citi-premier
+2024-07-21,Whole Foods,grocery,145.96,citi-custom-cash
+2024-07-21,Taco Bell,restaurant,123.1,citi-custom-cash
+2024-07-21,Red Lobster,restaurant,57.38,capital-one-savor
+2024-07-24,The Cheesecake Factory,restaurant,105.85,citi-custom-cash
+2024-07-27,Red Lobster,restaurant,57.09,amex-gold
+2024-07-28,Target,grocery,221.61,amex-gold
+2024-07-28,Amtrak,transportation,66.58,citi-custom-cash
+2024-07-28,Olive Garden,restaurant,103.33,capital-one-savor
+2024-07-31,Olive Garden,restaurant,78.06,amex-gold
+2024-08-02,Chick-fil-A,restaurant,125.77,amex-gold
+2024-08-04,Trader Joes,grocery,97.88,chase-sapphire-preferred
+2024-08-04,Chick-fil-A,restaurant,19.15,citi-custom-cash
+2024-08-05,Sheraton,hotel,291.84,chase-sapphire-preferred
+2024-08-06,Red Lobster,restaurant,139.77,amex-gold
+2024-08-06,McDonald's,restaurant,64.32,chase-sapphire-preferred
+2024-08-08,Amtrak,transportation,262.43,bofa-customized-cash
+2024-08-09,Panera Bread,restaurant,139.16,citi-custom-cash
+2024-08-11,Whole Foods,grocery,230.12,amex-gold
+2024-08-11,Amtrak,transportation,48.08,wells-fargo-autograph
+2024-08-12,Taco Bell,restaurant,111.04,chase-sapphire-preferred
+2024-08-14,Chipotle,restaurant,60.37,amex-gold
+2024-08-16,McDonald's,restaurant,99.14,chase-freedom-unlimited
+2024-08-18,Trader Joes,grocery,160.73,chase-sapphire-preferred
+2024-08-18,Starbucks,restaurant,117.22,amex-gold
+2024-08-20,McDonald's,restaurant,139.81,chase-freedom-unlimited
+2024-08-20,Subway,restaurant,25.3,chase-sapphire-preferred
+2024-08-24,Panera Bread,restaurant,24.97,citi-custom-cash
+2024-08-25,Target,grocery,153.83,amex-gold
+2024-08-25,76 Gas,transportation,55.89,wells-fargo-autograph
+2024-08-29,Subway,restaurant,53.52,amex-gold
+2024-08-29,Panera Bread,restaurant,49.8,capital-one-savor
+2024-08-29,Olive Garden,restaurant,78.87,amex-gold
+2024-08-30,McDonald's,restaurant,71.36,chase-sapphire-preferred
+2024-09-01,Costco,grocery,172.95,chase-sapphire-preferred
+2024-09-05,Taco Bell,restaurant,104.25,wells-fargo-autograph
+2024-09-06,Subway,restaurant,37.48,citi-custom-cash
+2024-09-06,The Cheesecake Factory,restaurant,130.36,amex-gold
+2024-09-07,Panera Bread,restaurant,126.26,amex-gold
+2024-09-08,Whole Foods,grocery,225.64,amex-gold
+2024-09-08,Shell Gas Station,transportation,78.5,wells-fargo-autograph
+2024-09-08,Taco Bell,restaurant,128.71,capital-one-savor
+2024-09-09,Chick-fil-A,restaurant,81.74,citi-custom-cash
+2024-09-10,The Cheesecake Factory,restaurant,132.36,wells-fargo-autograph
+2024-09-11,McDonald's,restaurant,49.8,amex-gold
+2024-09-12,Sheraton,hotel,157.29,chase-sapphire-reserve
+2024-09-15,Safeway,grocery,183.41,amex-blue-cash-preferred
+2024-09-15,Chipotle,restaurant,35.09,chase-sapphire-preferred
+2024-09-18,Olive Garden,restaurant,102.88,wells-fargo-autograph
+2024-09-20,McDonald's,restaurant,74.0,amex-gold
+2024-09-22,Aldi,grocery,238.36,amex-blue-cash-preferred
+2024-09-22,Shell Gas Station,transportation,39.75,wells-fargo-autograph
+2024-09-26,Panera Bread,restaurant,81.33,chase-sapphire-preferred
+2024-09-28,Subway,restaurant,69.09,capital-one-savor
+2024-09-28,Panera Bread,restaurant,44.44,capital-one-savor
+2024-09-29,Costco,grocery,234.89,amex-blue-cash-preferred
+2024-09-30,Taco Bell,restaurant,92.35,wells-fargo-autograph
+2024-10-02,Starbucks,restaurant,60.52,chase-sapphire-preferred
+2024-10-03,Subway,restaurant,40.7,capital-one-savor
+2024-10-04,Chick-fil-A,restaurant,43.14,capital-one-savor
+2024-10-06,Target,grocery,83.08,amex-blue-cash-preferred
+2024-10-06,Lyft,transportation,78.05,citi-custom-cash
+2024-10-09,Chipotle,restaurant,51.25,amex-gold
+2024-10-10,Taco Bell,restaurant,118.92,citi-custom-cash
+2024-10-11,Chick-fil-A,restaurant,88.18,amex-gold
+2024-10-12,Starbucks,restaurant,96.09,citi-custom-cash
+2024-10-13,Whole Foods,grocery,131.21,amex-blue-cash-preferred
+2024-10-16,Olive Garden,restaurant,77.03,citi-custom-cash
+2024-10-16,Taco Bell,restaurant,45.08,citi-custom-cash
+2024-10-19,Comfort Inn,hotel,226.22,capital-one-savor
+2024-10-19,McDonald's,restaurant,119.11,bofa-premium-rewards
+2024-10-20,Target,grocery,156.94,amex-blue-cash-preferred
+2024-10-20,76 Gas,transportation,49.13,wells-fargo-autograph
+2024-10-21,McDonald's,restaurant,94.94,citi-custom-cash
+2024-10-23,Olive Garden,restaurant,30.17,amex-gold
+2024-10-23,The Cheesecake Factory,restaurant,54.23,citi-custom-cash
+2024-10-24,Olive Garden,restaurant,57.23,citi-custom-cash
+2024-10-27,Costco,grocery,179.7,chase-freedom-flex
+2024-10-28,McDonald's,restaurant,104.41,capital-one-savor
+2024-10-31,Red Lobster,restaurant,120.48,amex-gold
+2024-11-01,Chipotle,restaurant,72.63,amex-gold
+2024-11-03,Safeway,grocery,208.45,amex-gold
+2024-11-03,Shell Gas Station,transportation,43.55,bofa-customized-cash
+2024-11-04,McDonald's,restaurant,143.93,capital-one-savor
+2024-11-08,Olive Garden,restaurant,125.64,capital-one-savor
+2024-11-09,McDonald's,restaurant,20.92,amex-gold
+2024-11-10,Costco,grocery,207.01,citi-double-cash
+2024-11-11,Chick-fil-A,restaurant,67.07,citi-custom-cash
+2024-11-13,The Cheesecake Factory,restaurant,100.66,capital-one-savor
+2024-11-15,Chipotle,restaurant,40.44,chase-sapphire-preferred
+2024-11-17,Target,grocery,172.74,citi-custom-cash
+2024-11-17,Shell Gas Station,transportation,46.81,citi-custom-cash
+2024-11-17,Chipotle,restaurant,147.98,amex-gold
+2024-11-19,Olive Garden,restaurant,131.58,capital-one-savor
+2024-11-22,McDonald's,restaurant,67.43,amex-gold
+2024-11-22,Subway,restaurant,111.26,wells-fargo-autograph
+2024-11-24,Target,grocery,119.0,citi-double-cash
+2024-11-26,Chick-fil-A,restaurant,84.18,capital-one-savor
+2024-11-26,The Cheesecake Factory,restaurant,96.87,citi-custom-cash
+2024-11-27,Red Lobster,restaurant,20.71,amex-gold
+2024-11-29,Taco Bell,restaurant,71.67,citi-custom-cash
+2024-12-01,Safeway,grocery,182.31,chase-freedom-flex
+2024-12-01,Uber,transportation,54.17,citi-double-cash
+2024-12-04,The Cheesecake Factory,restaurant,59.68,citi-custom-cash
+2024-12-04,Taco Bell,restaurant,125.06,capital-one-savor
+2024-12-07,Chipotle,restaurant,85.92,bofa-premium-rewards
+2024-12-08,Costco,grocery,126.02,amex-blue-cash-preferred
+2024-12-10,Red Lobster,restaurant,101.81,amex-gold
+2024-12-10,Chipotle,restaurant,106.05,capital-one-savor
+2024-12-11,Comfort Inn,hotel,177.62,amex-platinum
+2024-12-14,Chick-fil-A,restaurant,57.38,amex-gold
+2024-12-15,Costco,grocery,158.78,citi-custom-cash
+2024-12-15,Lyft,transportation,27.95,citi-custom-cash
+2024-12-16,Panera Bread,restaurant,132.12,citi-custom-cash
+2024-12-19,McDonald's,restaurant,122.23,capital-one-savor
+2024-12-19,Olive Garden,restaurant,103.39,citi-custom-cash
+2024-12-22,Safeway,grocery,204.38,citi-custom-cash
+2024-12-23,Starbucks,restaurant,8.55,amex-gold
+2024-12-24,Chick-fil-A,restaurant,149.78,chase-freedom-unlimited
+2024-12-28,Subway,restaurant,61.53,capital-one-savor
+2024-12-29,Costco,grocery,99.94,amex-blue-cash-preferred
+2024-12-29,Chevron,transportation,64.65,bofa-customized-cash
+2024-12-29,Subway,restaurant,113.45,bofa-premium-rewards

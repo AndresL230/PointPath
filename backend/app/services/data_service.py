@@ -7,7 +7,7 @@ from app.models import Card, User, Transaction, UserCard
 
 class DataService:
     def __init__(self):
-        self.base_dir = Path(__file__).parent.parent.parent.parent
+        self.base_dir = Path(__file__).parent.parent.parent
         self.data_dir = self.base_dir / "data"
         self.users_dir = self.data_dir / "users"
         self.cards_file = self.data_dir / "cards.json"

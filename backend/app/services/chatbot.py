@@ -6,9 +6,24 @@ from anthropic import Anthropic
 class ChatbotService:
     def __init__(self):
         api_key = os.getenv("ANTHROPIC_API_KEY")
-        self.client = Anthropic(api_key=api_key) if api_key else None
+        if api_key:
+            try:
+                self.client = Anthropic(api_key=api_key)
+                print("Anthropic API client initialized")
+            except Exception as e:
+                print(f"Warning: Failed to initialize Anthropic client: {e}")
+                self.client = None
+        else:
+            print("Warning: ANTHROPIC_API_KEY not found. Chat features will be disabled.")
+            self.client = None
 
     def get_intro_message(self, user_id: str) -> str:
+        if not self.client:
+            return (
+                "Hi! I'm your PointPath assistant. "
+                "Note: AI chat is currently unavailable. "
+                "Please contact your administrator to enable this feature."
+            )
         return (
             f"Hi! I'm your PointPath assistant. "
             f"I can help you optimize your credit card rewards and answer questions about your spending. "
@@ -17,7 +32,10 @@ class ChatbotService:
 
     def send_message(self, user_id: str, message: str) -> str:
         if not self.client:
-            return "Chatbot is not configured. Please set ANTHROPIC_API_KEY environment variable."
+            return (
+                "AI chat is currently unavailable. The ANTHROPIC_API_KEY is not configured. "
+                "Please add it to your .env file to enable this feature."
+            )
 
         try:
             response = self.client.messages.create(

@@ -15,8 +15,8 @@ def load_user_transactions(user_id):
         'groceries': 'grocery',
         'gas': 'transportation',
         'transit': 'transportation',
-        'flights': 'travel',
-        'hotels': 'travel'
+        'flights': 'flights',
+        'hotels': 'hotel'
     }
 
     # Convert transactions to CSV format
@@ -41,6 +41,7 @@ cardDataJSON = json.load(open('../../data/cards.json'))
 totals = {
     'grocery': {'amount': 0, 'transactions': 0, 'daysDifference': 0, 'lastDate': None},
     'hotel': {'amount': 0, 'transactions': 0, 'daysDifference': 0, 'lastDate': None},
+    'flights': {'amount': 0, 'transactions': 0, 'daysDifference': 0, 'lastDate': None},
     'transportation': {'amount': 0, 'transactions': 0, 'daysDifference': 0, 'lastDate': None},
     'restaurant': {'amount': 0, 'transactions': 0, 'daysDifference': 0, 'lastDate': None}
 }
@@ -105,7 +106,8 @@ def recommendTop3FromJSON(cardsJson, normalized):
     categoryMap = {
         'grocery': ['groceries'],
         'restaurant': ['dining'],
-        'hotel': ['hotels', 'travel', 'flights'],
+        'hotel': ['hotels'],
+        'flights': ['flights', 'travel'],
         'transportation': ['base_rate', 'transit', 'gas']
     }
 

@@ -1,5 +1,5 @@
 {
-  "transactions": [
+  const transactions = [
     {
       "id": "txn_001",
       "date": "2025-01-07",
@@ -72,3 +72,5 @@
     }
   ]
 }
+
+export default transactions;

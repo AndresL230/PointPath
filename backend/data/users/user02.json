@@ -1,0 +1,259 @@
+{
+  "user_id": "user02",
+  "cards": [
+    {
+      "card_id": "amex-blue-cash-preferred",
+      "date_opened": "2023-03-10"
+    },
+    {
+      "card_id": "chase-freedom-flex",
+      "date_opened": "2024-01-15"
+    },
+    {
+      "card_id": "capital-one-savor",
+      "date_opened": "2024-11-20"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_101",
+      "date": "2025-01-07",
+      "amount": 125.43,
+      "category": "groceries",
+      "merchant": "Trader Joe's",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_102",
+      "date": "2025-01-07",
+      "amount": 18.99,
+      "category": "streaming",
+      "merchant": "HBO Max",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_103",
+      "date": "2025-01-06",
+      "amount": 58.75,
+      "category": "gas",
+      "merchant": "Chevron",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_104",
+      "date": "2025-01-06",
+      "amount": 24.99,
+      "category": "drugstores",
+      "merchant": "CVS Pharmacy",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_105",
+      "date": "2025-01-05",
+      "amount": 85.20,
+      "category": "dining",
+      "merchant": "The Cheesecake Factory",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_106",
+      "date": "2025-01-05",
+      "amount": 45.00,
+      "category": "entertainment",
+      "merchant": "AMC Theatres",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_107",
+      "date": "2025-01-04",
+      "amount": 312.50,
+      "category": "flights",
+      "merchant": "Southwest Airlines",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_108",
+      "date": "2025-01-04",
+      "amount": 15.50,
+      "category": "transit",
+      "merchant": "Metro Transit",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_109",
+      "date": "2025-01-03",
+      "amount": 199.00,
+      "category": "online_shopping",
+      "merchant": "Target.com",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_110",
+      "date": "2025-01-03",
+      "amount": 67.89,
+      "category": "groceries",
+      "merchant": "Safeway",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_111",
+      "date": "2025-01-02",
+      "amount": 32.45,
+      "category": "dining",
+      "merchant": "Starbucks",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_112",
+      "date": "2025-01-02",
+      "amount": 14.99,
+      "category": "streaming",
+      "merchant": "Disney+",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_113",
+      "date": "2025-01-01",
+      "amount": 180.00,
+      "category": "hotels",
+      "merchant": "Hilton Hotels",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_114",
+      "date": "2024-12-31",
+      "amount": 95.60,
+      "category": "groceries",
+      "merchant": "Whole Foods",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_115",
+      "date": "2024-12-31",
+      "amount": 42.30,
+      "category": "gas",
+      "merchant": "Shell",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_116",
+      "date": "2024-12-30",
+      "amount": 120.00,
+      "category": "entertainment",
+      "merchant": "Live Nation",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_117",
+      "date": "2024-12-30",
+      "amount": 73.25,
+      "category": "dining",
+      "merchant": "P.F. Chang's",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_118",
+      "date": "2024-12-29",
+      "amount": 38.99,
+      "category": "drugstores",
+      "merchant": "Walgreens",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_119",
+      "date": "2024-12-29",
+      "amount": 225.00,
+      "category": "travel",
+      "merchant": "Hertz Car Rental",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_120",
+      "date": "2024-12-28",
+      "amount": 156.80,
+      "category": "online_shopping",
+      "merchant": "Best Buy",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_121",
+      "date": "2024-12-28",
+      "amount": 28.50,
+      "category": "transit",
+      "merchant": "Lyft",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_122",
+      "date": "2024-12-27",
+      "amount": 89.99,
+      "category": "groceries",
+      "merchant": "Costco",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_123",
+      "date": "2024-12-27",
+      "amount": 54.20,
+      "category": "dining",
+      "merchant": "Panera Bread",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_124",
+      "date": "2024-12-26",
+      "amount": 450.00,
+      "category": "flights",
+      "merchant": "United Airlines",
+      "card_id": "chase-freedom-flex"
+    },
+    {
+      "id": "txn_125",
+      "date": "2024-12-26",
+      "amount": 145.75,
+      "category": "hotels",
+      "merchant": "Hyatt Hotels",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_126",
+      "date": "2024-12-25",
+      "amount": 215.00,
+      "category": "dining",
+      "merchant": "Ruth's Chris Steak House",
+      "card_id": "capital-one-savor"
+    },
+    {
+      "id": "txn_127",
+      "date": "2024-12-24",
+      "amount": 62.40,
+      "category": "gas",
+      "merchant": "BP",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_128",
+      "date": "2024-12-24",
+      "amount": 19.99,
+      "category": "streaming",
+      "merchant": "Apple TV+",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_129",
+      "date": "2024-12-23",
+      "amount": 178.50,
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "card_id": "amex-blue-cash-preferred"
+    },
+    {
+      "id": "txn_130",
+      "date": "2024-12-23",
+      "amount": 95.00,
+      "category": "entertainment",
+      "merchant": "Dave & Buster's",
+      "card_id": "capital-one-savor"
+    }
+  ]
+}

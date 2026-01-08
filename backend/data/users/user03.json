@@ -1,0 +1,175 @@
+{
+  "user_id": "user03",
+  "cards": [
+    {
+      "card_id": "chase-sapphire-reserve",
+      "date_opened": "2023-08-20"
+    },
+    {
+      "card_id": "citi-custom-cash",
+      "date_opened": "2024-05-12"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_201",
+      "date": "2025-01-07",
+      "amount": 520.00,
+      "category": "flights",
+      "merchant": "American Airlines",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_202",
+      "date": "2025-01-07",
+      "amount": 89.50,
+      "category": "dining",
+      "merchant": "Capital Grille",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_203",
+      "date": "2025-01-06",
+      "amount": 48.75,
+      "category": "gas",
+      "merchant": "Exxon",
+      "card_id": "citi-custom-cash"
+    },
+    {
+      "id": "txn_204",
+      "date": "2025-01-06",
+      "amount": 285.00,
+      "category": "hotels",
+      "merchant": "Four Seasons",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_205",
+      "date": "2025-01-05",
+      "amount": 125.60,
+      "category": "dining",
+      "merchant": "Wolfgang Puck",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_206",
+      "date": "2025-01-05",
+      "amount": 350.00,
+      "category": "travel",
+      "merchant": "Enterprise Rent-A-Car",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_207",
+      "date": "2025-01-04",
+      "amount": 55.20,
+      "category": "gas",
+      "merchant": "Shell",
+      "card_id": "citi-custom-cash"
+    },
+    {
+      "id": "txn_208",
+      "date": "2025-01-04",
+      "amount": 78.90,
+      "category": "groceries",
+      "merchant": "Publix",
+      "card_id": "citi-custom-cash"
+    },
+    {
+      "id": "txn_209",
+      "date": "2025-01-03",
+      "amount": 415.00,
+      "category": "hotels",
+      "merchant": "Ritz-Carlton",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_210",
+      "date": "2025-01-03",
+      "amount": 145.30,
+      "category": "dining",
+      "merchant": "Nobu",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_211",
+      "date": "2025-01-02",
+      "amount": 22.50,
+      "category": "streaming",
+      "merchant": "YouTube Premium",
+      "card_id": "citi-custom-cash"
+    },
+    {
+      "id": "txn_212",
+      "date": "2025-01-02",
+      "amount": 680.00,
+      "category": "flights",
+      "merchant": "JetBlue",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_213",
+      "date": "2025-01-01",
+      "amount": 92.40,
+      "category": "dining",
+      "merchant": "Morton's Steakhouse",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_214",
+      "date": "2024-12-31",
+      "amount": 195.00,
+      "category": "travel",
+      "merchant": "Amtrak",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_215",
+      "date": "2024-12-30",
+      "amount": 63.80,
+      "category": "gas",
+      "merchant": "Chevron",
+      "card_id": "citi-custom-cash"
+    },
+    {
+      "id": "txn_216",
+      "date": "2024-12-30",
+      "amount": 112.00,
+      "category": "groceries",
+      "merchant": "Wegmans",
+      "card_id": "citi-custom-cash"
+    },
+    {
+      "id": "txn_217",
+      "date": "2024-12-29",
+      "amount": 540.00,
+      "category": "hotels",
+      "merchant": "W Hotels",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_218",
+      "date": "2024-12-28",
+      "amount": 87.65,
+      "category": "dining",
+      "merchant": "Fleming's Prime Steakhouse",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_219",
+      "date": "2024-12-27",
+      "amount": 450.00,
+      "category": "travel",
+      "merchant": "Luxury Coach Services",
+      "card_id": "chase-sapphire-reserve"
+    },
+    {
+      "id": "txn_220",
+      "date": "2024-12-26",
+      "amount": 95.50,
+      "category": "groceries",
+      "merchant": "Fresh Thyme",
+      "card_id": "citi-custom-cash"
+    }
+  ]
+}

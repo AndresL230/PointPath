@@ -1,8 +1,10 @@
 import Image from "next/image";
+import transactions from "../../data";
+import TransactionsTable from "./components/TransactionsTable";
 
 export default function Home() {
   return (
-    <main className="bg-custom-blue min-h-screen mx-17 mt-8">
+    <main className="bg-custom-blue min-h-screen mx-17 mt-8 mb-10">
       <h1 className="text-xl">Hi User, let's maximize your rewards</h1>
 
       <section className="flex gap-6">
@@ -21,7 +23,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="mt-6 bg-white p-6 rounded-lg">
+        <div className="mt-6 bg-white px-6 py-8 rounded-lg">
           <h1 className="text-black text-xl">Import Your Transactions</h1>
           <p className="text-gray-500">Connect your bank or upload a CSV to get personalized recommendations</p>
           <div className="mt-2">
@@ -52,7 +54,9 @@ export default function Home() {
       </section>
 
       <section>
-        
+        <div className="mt-6 bg-white px-6 py-8 rounded-lg">
+          <TransactionsTable transactions={transactions} />
+        </div>
       </section>
     </main>
   );

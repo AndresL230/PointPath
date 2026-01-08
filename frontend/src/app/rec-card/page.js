@@ -9,6 +9,7 @@ export default function RecCard() {
 
     const recommendedCards = [
         <Card 
+            type={"rec"}
             key="1"
             image="/amex-gold.jpg"
             cardName={"American Express Gold"}
@@ -17,6 +18,7 @@ export default function RecCard() {
             extra={"60000 Point Sign-On Bonus when you spend 6000 in 180 days"}
         />,
         <Card 
+            type={"rec"}
             key="2"
             image="/chase-sapphire-p.jpg"
             cardName={"Chase Sapphire Preferred"}
@@ -28,10 +30,10 @@ export default function RecCard() {
 
     return (
         <main className="bg-custom-blue min-h-screen mx-17 mt-8 mb-10">
-            <h1 className="text-xl">Hi User, let's maximize your rewards</h1>
+            <h1 className="text-xl">Based on your transaction history, here are some card recommendations</h1>
             
             <section>
-                <div className="mt-6 bg-white px-6 py-8 rounded-lg">
+                <div className="mt-8 bg-white px-6 py-8 rounded-lg">
                     <h2 className="text-black text-xl mb-4">Top Spending Categories</h2>
                     <div className="space-y-3">
                         {topCategories.map((category, index) => (

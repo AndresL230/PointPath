@@ -22,10 +22,58 @@
         ]
       },
       "credits": [
-        { "name": "Uber Cash", "amount": 120, "frequency": "monthly" },
-        { "name": "Dining Credit", "amount": 120, "frequency": "monthly" },
-        { "name": "Dunkin Credit", "amount": 84, "frequency": "monthly" }
+        { "name": "Uber Cash", "amount": 120, "frequency": "annual" },
+        { "name": "Dining Credit", "amount": 120, "frequency": "annual" }
       ]
+    },
+    {
+      "id": "amex-platinum",
+      "name": "American Express Platinum Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annual_fee": 695,
+      "signup_bonus": {
+        "amount": 80000,
+        "type": "points",
+        "minimum_spend": 8000,
+        "time_period_days": 180
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "flights", "rate": 5 },
+          { "name": "hotels", "rate": 5 },
+          { "name": "travel", "rate": 5 }
+        ]
+      },
+      "credits": [
+        { "name": "Airline Fee Credit", "amount": 200, "frequency": "annual" },
+        { "name": "Hotel Credit", "amount": 200, "frequency": "annual" },
+        { "name": "Uber Credit", "amount": 200, "frequency": "annual" }
+      ]
+    },
+    {
+      "id": "amex-blue-cash-preferred",
+      "name": "Blue Cash Preferred Card from American Express",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 350,
+        "type": "cash",
+        "minimum_spend": 3000,
+        "time_period_days": 180
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "groceries", "rate": 6, "annual_cap": 6000 },
+          { "name": "streaming", "rate": 6 },
+          { "name": "gas", "rate": 3 },
+          { "name": "transit", "rate": 3 }
+        ]
+      },
+      "credits": []
     },
     {
       "id": "chase-sapphire-preferred",
@@ -51,6 +99,389 @@
       "credits": [
         { "name": "Hotel Credit", "amount": 50, "frequency": "annual" }
       ]
+    },
+    {
+      "id": "chase-sapphire-reserve",
+      "name": "Chase Sapphire Reserve",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annual_fee": 550,
+      "signup_bonus": {
+        "amount": 60000,
+        "type": "points",
+        "minimum_spend": 4000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "travel", "rate": 10 },
+          { "name": "dining", "rate": 3 },
+          { "name": "hotels", "rate": 10 }
+        ]
+      },
+      "credits": [
+        { "name": "Travel Credit", "amount": 300, "frequency": "annual" },
+        { "name": "Hotel Credit", "amount": 250, "frequency": "annual" }
+      ]
+    },
+    {
+      "id": "chase-freedom-unlimited",
+      "name": "Chase Freedom Unlimited",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 300,
+        "type": "cash",
+        "minimum_spend": 500,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1.5,
+        "categories": [
+          { "name": "dining", "rate": 3 },
+          { "name": "drugstores", "rate": 3 },
+          { "name": "travel", "rate": 5 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "chase-freedom-flex",
+      "name": "Chase Freedom Flex",
+      "issuer": "Chase",
+      "network": "Mastercard",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 500,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "dining", "rate": 3 },
+          { "name": "drugstores", "rate": 3 },
+          { "name": "travel", "rate": 5 },
+          { "name": "groceries", "rate": 5, "annual_cap": 1500 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "capital-one-venture",
+      "name": "Capital One Venture Rewards",
+      "issuer": "Capital One",
+      "network": "Visa",
+      "annual_fee": 95,
+      "signup_bonus": {
+        "amount": 75000,
+        "type": "miles",
+        "minimum_spend": 4000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 2,
+        "categories": [
+          { "name": "hotels", "rate": 5 },
+          { "name": "travel", "rate": 5 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "capital-one-savor",
+      "name": "Capital One Savor Cash Rewards",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 500,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "dining", "rate": 3 },
+          { "name": "entertainment", "rate": 3 },
+          { "name": "streaming", "rate": 3 },
+          { "name": "groceries", "rate": 3 },
+          { "name": "hotels", "rate": 5 },
+          { "name": "travel", "rate": 5 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "capital-one-quicksilver",
+      "name": "Capital One Quicksilver Cash Rewards",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 500,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1.5,
+        "categories": [
+          { "name": "hotels", "rate": 5 },
+          { "name": "travel", "rate": 5 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "discover-it-cash-back",
+      "name": "Discover it Cash Back",
+      "issuer": "Discover",
+      "network": "Discover",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 0,
+        "type": "cash",
+        "minimum_spend": 0,
+        "time_period_days": 365
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "groceries", "rate": 5, "annual_cap": 1500 },
+          { "name": "streaming", "rate": 5, "annual_cap": 1500 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "discover-it-student",
+      "name": "Discover it Student Cash Back",
+      "issuer": "Discover",
+      "network": "Discover",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 0,
+        "type": "cash",
+        "minimum_spend": 0,
+        "time_period_days": 365
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "groceries", "rate": 5, "annual_cap": 1500 },
+          { "name": "streaming", "rate": 5, "annual_cap": 1500 },
+          { "name": "gas", "rate": 5, "annual_cap": 1500 },
+          { "name": "dining", "rate": 5, "annual_cap": 1500 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "citi-double-cash",
+      "name": "Citi Double Cash Card",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 1500,
+        "time_period_days": 180
+      },
+      "rewards": {
+        "base_rate": 2,
+        "categories": [
+          { "name": "hotels", "rate": 3 },
+          { "name": "travel", "rate": 3 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "citi-custom-cash",
+      "name": "Citi Custom Cash Card",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 1500,
+        "time_period_days": 180
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "dining", "rate": 5, "annual_cap": 6000 },
+          { "name": "gas", "rate": 5, "annual_cap": 6000 },
+          { "name": "groceries", "rate": 5, "annual_cap": 6000 },
+          { "name": "travel", "rate": 5, "annual_cap": 6000 },
+          { "name": "streaming", "rate": 5, "annual_cap": 6000 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "citi-premier",
+      "name": "Citi Strata Premier Card",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annual_fee": 95,
+      "signup_bonus": {
+        "amount": 70000,
+        "type": "points",
+        "minimum_spend": 4000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "travel", "rate": 3 },
+          { "name": "gas", "rate": 3 },
+          { "name": "dining", "rate": 3 },
+          { "name": "groceries", "rate": 3 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "wells-fargo-autograph",
+      "name": "Wells Fargo Autograph Card",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 20000,
+        "type": "points",
+        "minimum_spend": 1000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "dining", "rate": 3 },
+          { "name": "travel", "rate": 3 },
+          { "name": "gas", "rate": 3 },
+          { "name": "transit", "rate": 3 },
+          { "name": "streaming", "rate": 3 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "name": "Wells Fargo Active Cash Card",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 500,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 2,
+        "categories": []
+      },
+      "credits": []
+    },
+    {
+      "id": "bofa-customized-cash",
+      "name": "Bank of America Customized Cash Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 200,
+        "type": "cash",
+        "minimum_spend": 1000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "gas", "rate": 3 },
+          { "name": "online_shopping", "rate": 3 },
+          { "name": "dining", "rate": 3 },
+          { "name": "travel", "rate": 3 },
+          { "name": "drugstores", "rate": 3 },
+          { "name": "groceries", "rate": 2 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "bofa-premium-rewards",
+      "name": "Bank of America Premium Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "annual_fee": 95,
+      "signup_bonus": {
+        "amount": 60000,
+        "type": "points",
+        "minimum_spend": 4000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1.5,
+        "categories": [
+          { "name": "travel", "rate": 2 },
+          { "name": "dining", "rate": 2 }
+        ]
+      },
+      "credits": [
+        { "name": "Travel Credit", "amount": 100, "frequency": "annual" }
+      ]
+    },
+    {
+      "id": "barclays-jetblue-plus",
+      "name": "JetBlue Plus Card",
+      "issuer": "Barclays",
+      "network": "Mastercard",
+      "annual_fee": 99,
+      "signup_bonus": {
+        "amount": 60000,
+        "type": "points",
+        "minimum_spend": 1000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "flights", "rate": 6 },
+          { "name": "dining", "rate": 2 },
+          { "name": "groceries", "rate": 2 }
+        ]
+      },
+      "credits": []
+    },
+    {
+      "id": "barclays-jetblue",
+      "name": "JetBlue Card",
+      "issuer": "Barclays",
+      "network": "Mastercard",
+      "annual_fee": 0,
+      "signup_bonus": {
+        "amount": 30000,
+        "type": "points",
+        "minimum_spend": 1000,
+        "time_period_days": 90
+      },
+      "rewards": {
+        "base_rate": 1,
+        "categories": [
+          { "name": "flights", "rate": 3 },
+          { "name": "dining", "rate": 2 },
+          { "name": "groceries", "rate": 2 }
+        ]
+      },
+      "credits": []
     }
   ]
 }

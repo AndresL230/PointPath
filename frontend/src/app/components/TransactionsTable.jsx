@@ -1,34 +1,49 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-export default function TransactionsTable({ transactions }) {
+export default function TransactionsTable({ userId }) {
+  const [transactions, setTransactions] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [showAll, setShowAll] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('all');
-  
-  if (!transactions || transactions.length === 0) {
-    return <div>No transactions found</div>;
-  }
+
+  const categories = ['all', 'dining', 'groceries', 'travel', 'gas', 'streaming', 'other'];
+
+  useEffect(() => {
+    async function fetchTransactions() {
+      setLoading(true);
+      try {
+        const res = await fetch(`http://localhost:8080/api/transactions/user/${userId}/analysis`);
+        const data = await res.json();
+        setTransactions(data.transactions || []);
+      } catch (err) {
+        console.error("Failed to fetch transactions:", err);
+        setTransactions([]);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    if (userId) fetchTransactions();
+  }, [userId]);
+
+  if (loading) return <div className='text-gray-600'>Loading transactions...</div>;
+  if (!transactions.length) return <div className='text-gray-600'>No transactions found</div>;
 
   const formatDate = (dateString) => {
     try {
       const date = new Date(dateString + 'T00:00:00');
-      return date.toLocaleDateString('en-US', { 
-        month: 'short', 
-        day: 'numeric', 
-        year: 'numeric' 
-      });
-    } catch (error) {
+      return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    } catch {
       return dateString;
     }
   };
 
-  const categories = ['all', 'dining', 'groceries', 'travel', 'gas', 'streaming', 'other'];
-  
-  const filteredTransactions = selectedCategory === 'all' 
-    ? transactions 
+  const filteredTransactions = selectedCategory === 'all'
+    ? transactions
     : transactions.filter(t => t.category === selectedCategory);
-  
+
   const displayedTransactions = showAll ? filteredTransactions : filteredTransactions.slice(0, 3);
 
   return (
@@ -79,8 +94,8 @@ export default function TransactionsTable({ transactions }) {
               <td className="py-3 px-4">
                 {transaction.status ? (
                   <span className={`text-xs px-2 py-1 rounded-full ${
-                    transaction.status === 'Optimal' 
-                      ? 'bg-green-100 text-green-700' 
+                    transaction.status === 'Optimal'
+                      ? 'bg-green-100 text-green-700'
                       : 'bg-yellow-100 text-yellow-700'
                   }`}>
                     {transaction.status}
@@ -93,10 +108,10 @@ export default function TransactionsTable({ transactions }) {
           ))}
         </tbody>
       </table>
-      
+
       {filteredTransactions.length > 3 && (
         <div className="mt-4 text-center">
-          <button 
+          <button
             onClick={() => setShowAll(!showAll)}
             className="text-gray-600 hover:text-black text-sm font-medium cursor-pointer"
           >
@@ -104,7 +119,7 @@ export default function TransactionsTable({ transactions }) {
           </button>
         </div>
       )}
-      
+
       {displayedTransactions.length === 0 && (
         <div className="text-center py-8 text-gray-500">
           No transactions found in this category

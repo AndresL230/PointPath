@@ -80,7 +80,7 @@ export default function Home() {
 
       <section>
         <div className="mt-6 bg-white px-6 py-8 rounded-lg">
-          <TransactionsTable transactions={transactions} />
+          <TransactionsTable userId="demo-user" />
         </div>
       </section>
 

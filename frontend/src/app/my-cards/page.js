@@ -106,13 +106,30 @@ export default function MyCards() {
     );
   }
 
+  const totalPoints = cards.reduce((sum, card) => {
+    return sum + parseInt(card.points.replace(/,/g, ''));
+  }, 0);
+
   return (
     <main className="bg-custom-blue min-h-screen mx-17 mt-8 mb-10">
       <h1 className="text-xl">Here are your current credit cards</h1>
 
-      <section className="mt-8 bg-white px-6 py-8 rounded-lg pb-20">
+      {cards.length > 0 && (
+        <section className="flex gap-6 mt-8">
+          <div className="bg-white p-6 rounded-lg w-1/2">
+            <p className="text-gray-500 text-sm">Total Cards</p>
+            <h2 className="text-black text-2xl">{cards.length}</h2>
+          </div>
+          <div className="bg-white p-6 rounded-lg w-1/2">
+            <p className="text-gray-500 text-sm">Total Points Earned</p>
+            <h2 className="text-black text-2xl">{totalPoints.toLocaleString()}</h2>
+          </div>
+        </section>
+      )}
+
+      <section className="mt-6 bg-white px-6 py-8 rounded-lg pb-20">
         {cards.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {cards.map((card, index) => (
               <Card
                 type="curr"

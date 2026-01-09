@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 from typing import List, Optional
-from app.models import Card, User, Transaction, UserCard
+from app.models import Card, User, Transaction
 
 
 class DataService:
@@ -39,41 +39,6 @@ class DataService:
             data = json.load(f)
             return User(**data)
 
-    def save_user(self, user: User) -> None:
-        user_file = self.users_dir / f"{user.user_id}.json"
-
-        with open(user_file, "w") as f:
-            json.dump(user.model_dump(), f, indent=2)
-
-    def create_user(self, user_id: str) -> User:
-        user = User(user_id=user_id, cards=[], transactions=[])
-        self.save_user(user)
-        return user
-
-    def get_or_create_user(self, user_id: str) -> User:
-        user = self.load_user(user_id)
-        if user is None:
-            user = self.create_user(user_id)
-        return user
-
-    def add_card_to_user(self, user_id: str, user_card: UserCard) -> User:
-        user = self.get_or_create_user(user_id)
-        user.cards.append(user_card)
-        self.save_user(user)
-        return user
-
-    def remove_card_from_user(self, user_id: str, card_id: str) -> User:
-        user = self.get_or_create_user(user_id)
-        user.cards = [card for card in user.cards if card.card_id != card_id]
-        self.save_user(user)
-        return user
-
-    def add_transactions(self, user_id: str, transactions: List[Transaction]) -> User:
-        user = self.get_or_create_user(user_id)
-        user.transactions.extend(transactions)
-        self.save_user(user)
-        return user
-
     def get_user_transactions(self, user_id: str) -> List[Transaction]:
         user = self.load_user(user_id)
         if user is None:
@@ -89,6 +54,45 @@ class DataService:
         user_card_ids = {card.card_id for card in user.cards}
 
         return [card for card in all_cards if card.id in user_card_ids]
+
+    # ============================================================================
+    # WRITE METHODS - COMMENTED OUT (Not editing data)
+    # ============================================================================
+
+    # def save_user(self, user: User) -> None:
+    #     user_file = self.users_dir / f"{user.user_id}.json"
+    #
+    #     with open(user_file, "w") as f:
+    #         json.dump(user.model_dump(), f, indent=2)
+
+    # def create_user(self, user_id: str) -> User:
+    #     user = User(user_id=user_id, cards=[], transactions=[])
+    #     self.save_user(user)
+    #     return user
+
+    # def get_or_create_user(self, user_id: str) -> User:
+    #     user = self.load_user(user_id)
+    #     if user is None:
+    #         user = self.create_user(user_id)
+    #     return user
+
+    # def add_card_to_user(self, user_id: str, user_card: UserCard) -> User:
+    #     user = self.get_or_create_user(user_id)
+    #     user.cards.append(user_card)
+    #     self.save_user(user)
+    #     return user
+
+    # def remove_card_from_user(self, user_id: str, card_id: str) -> User:
+    #     user = self.get_or_create_user(user_id)
+    #     user.cards = [card for card in user.cards if card.card_id != card_id]
+    #     self.save_user(user)
+    #     return user
+
+    # def add_transactions(self, user_id: str, transactions: List[Transaction]) -> User:
+    #     user = self.get_or_create_user(user_id)
+    #     user.transactions.extend(transactions)
+    #     self.save_user(user)
+    #     return user
 
 
 data_service = DataService()

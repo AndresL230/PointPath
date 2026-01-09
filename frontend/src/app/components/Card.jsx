@@ -11,49 +11,59 @@ export default function Card({
     points
 }) {
     return (
-        <div className="bg-white border border-gray-200 rounded-lg p-4">
-            <div className={`relative w-full ${type === "curr" ? "h-[140px]" : "h-[150px]"}`}>
+        <div className="bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow duration-200">
+            {/* Card Image */}
+            <div className="relative w-full aspect-[1.6/1] mb-4">
                 <Image
                     src={image}
                     alt={cardName}
                     fill
-                    className="object-cover rounded-md"
+                    className="object-contain rounded-lg"
                 />
             </div>
 
-            <section className="my-3 leading-5 px-1">
-                <h3 className="text-black font-semibold">{cardName}</h3>
+            {/* Card Content */}
+            <div className="space-y-2">
+                {/* Card Name - Always shown */}
+                <h3 className="text-lg font-bold text-gray-900 leading-tight">
+                    {cardName}
+                </h3>
 
+                {/* Recommended Card Layout */}
                 {type === "rec" && (
-                    <>
-                        <div className="mt-3 space-y-1">
-                            <p className="text-sm text-gray-600">
-                                <span className="font-bold text-[#5877B4]">{topRate}%</span> on {rateName}
-                            </p>
-                            <p className="text-xs text-gray-500 mt-3 leading-relaxed">{extra}</p>
-                        </div>
-                    </>
+                    <div className="space-y-2 pt-1">
+                        <p className="text-base text-gray-700">
+                            <span className="font-bold text-[#2563EB]">{topRate}%</span>
+                            {" "}on {rateName}
+                        </p>
+                        <p className="text-sm text-gray-500 leading-relaxed">
+                            {extra}
+                        </p>
+                    </div>
                 )}
 
+                {/* Current Card Layout */}
                 {type === "curr" && (
-                    <>
-                        <div className="mt-3 space-y-2">
-                            <div>
-                                <p className="text-xs text-gray-500 uppercase tracking-wide">Balance</p>
-                                <p className="text-2xl font-semibold text-black">
-                                    {balance}
-                                </p>
-                            </div>
-                            <div>
-                                <p className="text-xs text-gray-500 uppercase tracking-wide">Points</p>
-                                <p className="text-lg font-medium text-[#5877B4]">
-                                    {points}
-                                </p>
-                            </div>
+                    <div className="space-y-3 pt-2">
+                        <div>
+                            <p className="text-xs text-gray-500 uppercase tracking-wide mb-0.5">
+                                Balance
+                            </p>
+                            <p className="text-2xl font-bold text-gray-900">
+                                {balance}
+                            </p>
                         </div>
-                    </>
+                        <div>
+                            <p className="text-xs text-gray-500 uppercase tracking-wide mb-0.5">
+                                Points Earned
+                            </p>
+                            <p className="text-xl font-semibold text-[#2563EB]">
+                                {points}
+                            </p>
+                        </div>
+                    </div>
                 )}
-            </section>
+            </div>
         </div>
     );
 }

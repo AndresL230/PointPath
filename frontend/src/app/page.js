@@ -6,6 +6,11 @@ import TransactionsTable from "./components/TransactionsTable";
 import CreditOption from "./components/CreditOption";
 
 export default function Home() {
+  const [summary, setSummary] = useState({
+    rewardsEarned: 0,
+    missedRewards: 0,
+    bestCard: '—'
+  });
   const [showCardRecommendation, setShowCardRecommendation] = useState(false);
   const [purchaseType, setPurchaseType] = useState('Select');
   const [amount, setAmount] = useState('');
@@ -27,20 +32,89 @@ export default function Home() {
     }
   }, [showCardRecommendation]);
 
+  useEffect(() => {
+    async function fetchSummary() {
+      try {
+        const userRes = await fetch(`http://localhost:8000/api/users/${userId}`);
+        const userData = await userRes.json();
+
+        const cardsRes = await fetch('http://localhost:8000/api/cards');
+        const cardsData = await cardsRes.json();
+        const allCards = Array.isArray(cardsData) ? cardsData : cardsData.cards;
+
+        const cardMap = {};
+        allCards.forEach(card => {
+          cardMap[card.id] = card;
+        });
+
+        let earned = 0;
+        let missed = 0;
+        const cardEarnings = {};
+
+        userData.transactions.forEach(tx => {
+          const usedCard = cardMap[tx.card_id];
+          if (!usedCard) return;
+
+          // rewards earned
+          const usedCat = usedCard.rewards.categories.find(
+            c => c.name === tx.category
+          );
+
+          const usedRate = usedCat ? usedCat.rate : usedCard.rewards.base_rate;
+          const earnedRewards = tx.amount * (usedRate / 100);
+          earned += earnedRewards;
+
+          cardEarnings[usedCard.name] =
+            (cardEarnings[usedCard.name] || 0) + earnedRewards;
+
+          // potential rewards
+          let bestPossible = earnedRewards;
+
+          userData.cards.forEach(userCard => {
+            const card = cardMap[userCard.card_id];
+            if (!card) return;
+
+            const cat = card.rewards.categories.find(
+              c => c.name === tx.category
+            );
+            const rate = cat ? cat.rate : card.rewards.base_rate;
+            bestPossible = Math.max(bestPossible, tx.amount * (rate / 100));
+          });
+
+          missed += bestPossible - earnedRewards;
+        });
+
+        const bestCard =
+          Object.entries(cardEarnings).sort((a, b) => b[1] - a[1])[0]?.[0] || '—';
+
+        setSummary({
+          rewardsEarned: earned,
+          missedRewards: missed,
+          bestCard
+        });
+      } catch (err) {
+        console.error('Failed to load summary stats', err);
+      }
+    }
+
+    fetchSummary();
+  }, []);
+
+
   const fetchUserCards = async () => {
     try {
       const userRes = await fetch(`http://localhost:8000/api/users/${userId}`);
       const userData = await userRes.json();
-      
+
       const cardsRes = await fetch('http://localhost:8000/api/cards');
       const cardsData = await cardsRes.json();
       const allCards = Array.isArray(cardsData) ? cardsData : (cardsData.cards || []);
-      
+
       const userCardIds = userData.cards.map(c => c.card_id);
       const userCardDetails = allCards.filter(card => userCardIds.includes(card.id));
-      
+
       setUserCards(userCardDetails);
-      
+
       // extract all available credits from user's cards
       const credits = [];
       userCardDetails.forEach(card => {
@@ -69,9 +143,9 @@ export default function Home() {
         category: purchaseType,
         amount: amount.toString()
       });
-      
+
       console.log('Sending recommendation request:', { userId, purchaseType, amount });
-      
+
       const response = await fetch(`http://localhost:8000/api/recommendations/transaction?${params}`, {
         method: 'GET',
         headers: {
@@ -88,13 +162,13 @@ export default function Home() {
       const data = await response.json();
       console.log('Recommendation response:', data);
       console.log('Recommended card ID:', data.recommended_card_id);
-      
+
       const cardsRes = await fetch('http://localhost:8000/api/cards');
       const cardsData = await cardsRes.json();
       const allCards = Array.isArray(cardsData) ? cardsData : (cardsData.cards || []);
-      
+
       const recommendedCardDetails = allCards.find(card => card.id === data.recommended_card_id);
-      
+
       if (recommendedCardDetails) {
         setRecommendedCard({
           ...recommendedCardDetails,
@@ -132,15 +206,15 @@ export default function Home() {
       <section className="flex gap-6">
         <div className="mt-8 bg-white p-6 rounded-lg w-1/3">
           <p className="text-gray-500 text-sm">Rewards Earned This Month</p>
-          <h1 className="text-black text-2xl">$43.22</h1>
+          <h1 className="text-black text-2xl">${summary.rewardsEarned.toFixed(2)}</h1>
         </div>
         <div className="mt-8 bg-white p-6 rounded-lg w-1/3">
           <p className="text-gray-500 text-sm">Potential Missed Rewards</p>
-          <h1 className="text-black text-2xl">$12.80</h1>
+          <h1 className="text-black text-2xl">${summary.missedRewards.toFixed(2)}</h1>
         </div>
         <div className="mt-8 bg-white p-6 rounded-lg w-1/3">
           <p className="text-gray-500 text-sm">Best Performing Card</p>
-          <h1 className="text-black text-2xl">Amex Gold</h1>
+          <h1 className="text-black text-2xl">{summary.bestCard}</h1>
         </div>
       </section>
 
@@ -224,10 +298,10 @@ export default function Home() {
                     <div className="flex flex-col gap-3">
                       {availableCredits.length > 0 ? (
                         availableCredits.map((credit, index) => (
-                          <div 
+                          <div
                             key={index}
                           >
-                            <CreditOption 
+                            <CreditOption
                               creditName={credit.name}
                               cardName={credit.cardName}
                               amount={credit.amount}

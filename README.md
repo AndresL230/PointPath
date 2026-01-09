@@ -1,6 +1,6 @@
 # PointPath - Smart Credit Card Rewards Optimization
 
-![Preview](./landingpage.png)
+![Preview](./LandingPage.png)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)

@@ -39,7 +39,7 @@ export default function RecCard() {
                 
                 const cardsData = await cardsResponse.json();
 
-                processRecommendedCards(cardsData);
+                await processRecommendedCards(cardsData);
                 
                 setLoading(false);
             } catch (err) {
@@ -108,31 +108,51 @@ export default function RecCard() {
         return top3;
     }
 
-    function processRecommendedCards(cardsData) {
-        const top3Cards = cardsData.slice(0, 3);
+    async function processRecommendedCards(cardsData) {
+        // convert dictionary to array
+        const cardsArray = Object.values(cardsData);
         
-        const cardComponents = top3Cards.map((card, index) => {
-            const bestCategory = findBestCategory(card);
-            
-            return (
-                <Card 
-                    type="rec"
-                    key={card.id || index}
-                    image={`/${card.id}.jpg`}
-                    cardName={card.name}
-                    rateName={bestCategory.name}
-                    topRate={bestCategory.rate}
-                    extra={formatSignupBonus(card.signup_bonus)}
-                />
+        if (cardsArray.length === 0) {
+            setRecommendedCards([]);
+            return;
+        }
+
+        try {
+            // fetch the full card details for each recommendation to get reward rates
+            const cardDetailsPromises = cardsArray.map(rec => 
+                fetch(`http://localhost:8000/api/cards/${rec.cardId}`)
+                    .then(res => res.json())
             );
-        });
-        
-        setRecommendedCards(cardComponents);
+            
+            const cards = await Promise.all(cardDetailsPromises);
+
+            const cardComponents = cardsArray.map((rec, index) => {
+                const card = cards[index];
+                const bestCategory = findBestCategory(card);
+                
+                return (
+                    <Card 
+                        type="rec"
+                        key={rec.cardId || index}
+                        image={`/${rec.cardId}.jpg`}
+                        cardName={rec.cardName}
+                        rateName={bestCategory.name}
+                        topRate={bestCategory.rate}
+                        extra={formatSignupBonus(rec.signupBonus)}
+                    />
+                );
+            });
+            
+            setRecommendedCards(cardComponents);
+        } catch (err) {
+            console.error('Error fetching card details:', err);
+            setRecommendedCards([]);
+        }
     }
 
     function findBestCategory(card) {
         if (!card.rewards || !card.rewards.categories || card.rewards.categories.length === 0) {
-            return { name: "Base Rate", rate: card.rewards?.base_rate || "1" };
+            return { name: "Base Rate", rate: card.rewards?.base_rate?.toString() || "1" };
         }
 
         let bestCat = card.rewards.categories[0];
@@ -159,9 +179,11 @@ export default function RecCard() {
             'transportation': 'Transportation',
             'transit': 'Transit',
             'travel': 'Travel',
-            'flights': 'Flights',
-            'hotels': 'Hotels',
-            'hotel': 'Hotels'
+            'flights': 'Travel',
+            'hotels': 'Travel',
+            'hotel': 'Travel',
+            'streaming': 'Streaming',
+            'entertainment': 'Entertainment'
         };
         
         return nameMap[name.toLowerCase()] || name.charAt(0).toUpperCase() + name.slice(1);
@@ -243,8 +265,10 @@ export default function RecCard() {
             <section>
                 <div className="mt-6 bg-white px-6 py-8 rounded-lg">
                     <h2 className="text-black text-xl">Recommended Cards</h2>
-                    <p className="text-gray-600 mb-6">We show cards that are popular for certain spending patterns.
-                       Approval depends on the issuer and your credit profile.</p>
+                    <p className="text-gray-600 mb-6">
+                        Based on your spending patterns, these cards will maximize your rewards.
+                        Approval depends on the issuer and your credit profile.
+                    </p>
                     {recommendedCards.length > 0 ? (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {recommendedCards}

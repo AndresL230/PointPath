@@ -107,7 +107,7 @@ def recommendTop3FromJSON(cardsJson, normalized):
         'grocery': ['groceries'],
         'restaurant': ['dining'],
         'hotel': ['hotels'],
-        'flights': ['flights', 'travel'],
+        'flights': ['flights'],
         'transportation': ['base_rate', 'transit', 'gas']
     }
 

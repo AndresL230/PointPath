@@ -1,0 +1,219 @@
+{
+  "user_id": "user04",
+  "cards": [
+    {
+      "card_id": "discover-it-cash-back",
+      "date_opened": "2022-11-05"
+    },
+    {
+      "card_id": "wells-fargo-autograph",
+      "date_opened": "2024-03-18"
+    },
+    {
+      "card_id": "bofa-customized-cash",
+      "date_opened": "2024-08-22"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_301",
+      "date": "2025-01-07",
+      "amount": 145.80,
+      "category": "online_shopping",
+      "merchant": "Amazon",
+      "card_id": "bofa-customized-cash"
+    },
+    {
+      "id": "txn_302",
+      "date": "2025-01-07",
+      "amount": 35.60,
+      "category": "dining",
+      "merchant": "McDonald's",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_303",
+      "date": "2025-01-06",
+      "amount": 78.25,
+      "category": "groceries",
+      "merchant": "Kroger",
+      "card_id": "discover-it-cash-back"
+    },
+    {
+      "id": "txn_304",
+      "date": "2025-01-06",
+      "amount": 12.99,
+      "category": "streaming",
+      "merchant": "Spotify",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_305",
+      "date": "2025-01-05",
+      "amount": 52.30,
+      "category": "gas",
+      "merchant": "Mobil",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_306",
+      "date": "2025-01-05",
+      "amount": 28.75,
+      "category": "drugstores",
+      "merchant": "Rite Aid",
+      "card_id": "bofa-customized-cash"
+    },
+    {
+      "id": "txn_307",
+      "date": "2025-01-04",
+      "amount": 185.00,
+      "category": "travel",
+      "merchant": "Budget Car Rental",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_308",
+      "date": "2025-01-04",
+      "amount": 42.10,
+      "category": "dining",
+      "merchant": "Chili's",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_309",
+      "date": "2025-01-03",
+      "amount": 95.50,
+      "category": "groceries",
+      "merchant": "Aldi",
+      "card_id": "discover-it-cash-back"
+    },
+    {
+      "id": "txn_310",
+      "date": "2025-01-03",
+      "amount": 215.00,
+      "category": "online_shopping",
+      "merchant": "eBay",
+      "card_id": "bofa-customized-cash"
+    },
+    {
+      "id": "txn_311",
+      "date": "2025-01-02",
+      "amount": 18.50,
+      "category": "transit",
+      "merchant": "City Bus Pass",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_312",
+      "date": "2025-01-02",
+      "amount": 64.20,
+      "category": "gas",
+      "merchant": "Sunoco",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_313",
+      "date": "2025-01-01",
+      "amount": 38.90,
+      "category": "dining",
+      "merchant": "Subway",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_314",
+      "date": "2024-12-31",
+      "amount": 125.00,
+      "category": "groceries",
+      "merchant": "Sam's Club",
+      "card_id": "discover-it-cash-back"
+    },
+    {
+      "id": "txn_315",
+      "date": "2024-12-31",
+      "amount": 15.99,
+      "category": "streaming",
+      "merchant": "Hulu",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_316",
+      "date": "2024-12-30",
+      "amount": 89.99,
+      "category": "online_shopping",
+      "merchant": "Walmart.com",
+      "card_id": "bofa-customized-cash"
+    },
+    {
+      "id": "txn_317",
+      "date": "2024-12-30",
+      "amount": 45.60,
+      "category": "gas",
+      "merchant": "Circle K",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_318",
+      "date": "2024-12-29",
+      "amount": 58.40,
+      "category": "dining",
+      "merchant": "Applebee's",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_319",
+      "date": "2024-12-29",
+      "amount": 32.75,
+      "category": "drugstores",
+      "merchant": "Walgreens",
+      "card_id": "bofa-customized-cash"
+    },
+    {
+      "id": "txn_320",
+      "date": "2024-12-28",
+      "amount": 110.00,
+      "category": "groceries",
+      "merchant": "Food Lion",
+      "card_id": "discover-it-cash-back"
+    },
+    {
+      "id": "txn_321",
+      "date": "2024-12-28",
+      "amount": 25.00,
+      "category": "transit",
+      "merchant": "Uber",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_322",
+      "date": "2024-12-27",
+      "amount": 175.50,
+      "category": "online_shopping",
+      "merchant": "Etsy",
+      "card_id": "bofa-customized-cash"
+    },
+    {
+      "id": "txn_323",
+      "date": "2024-12-27",
+      "amount": 47.20,
+      "category": "dining",
+      "merchant": "Taco Bell",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_324",
+      "date": "2024-12-26",
+      "amount": 72.30,
+      "category": "gas",
+      "merchant": "BP",
+      "card_id": "wells-fargo-autograph"
+    },
+    {
+      "id": "txn_325",
+      "date": "2024-12-26",
+      "amount": 158.00,
+      "category": "groceries",
+      "merchant": "Sprouts",
+      "card_id": "discover-it-cash-back"
+    }
+  ]
+}

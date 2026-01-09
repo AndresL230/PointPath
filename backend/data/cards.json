@@ -440,28 +440,6 @@
       ]
     },
     {
-      "id": "barclays-jetblue-plus",
-      "name": "JetBlue Plus Card",
-      "issuer": "Barclays",
-      "network": "Mastercard",
-      "annual_fee": 99,
-      "signup_bonus": {
-        "amount": 60000,
-        "type": "points",
-        "minimum_spend": 1000,
-        "time_period_days": 90
-      },
-      "rewards": {
-        "base_rate": 1,
-        "categories": [
-          { "name": "flights", "rate": 6 },
-          { "name": "dining", "rate": 2 },
-          { "name": "groceries", "rate": 2 }
-        ]
-      },
-      "credits": []
-    },
-    {
       "id": "barclays-jetblue",
       "name": "JetBlue Card",
       "issuer": "Barclays",

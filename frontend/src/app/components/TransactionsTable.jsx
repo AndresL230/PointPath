@@ -8,15 +8,69 @@ export default function TransactionsTable({ userId }) {
   const [showAll, setShowAll] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-  const categories = ['all', 'dining', 'groceries', 'travel', 'gas', 'streaming', 'other'];
+  const categories = ['all', 'dining', 'groceries', 'travel', 'gas', 'streaming', 'flights', 'hotels', 'transit', 'other'];
 
   useEffect(() => {
     async function fetchTransactions() {
       setLoading(true);
       try {
-        const res = await fetch(`http://localhost:8080/api/transactions/user/${userId}/analysis`);
-        const data = await res.json();
-        setTransactions(data.transactions || []);
+        const res = await fetch(`http://localhost:8000/api/users/${userId}`);
+        const userData = await res.json();
+
+        const cardsRes = await fetch('http://localhost:8000/api/cards');
+        const cardsData = await cardsRes.json();
+        const allCards = Array.isArray(cardsData) ? cardsData : (cardsData.cards || []);
+
+        const cardMap = {};
+        allCards.forEach(card => {
+          cardMap[card.id] = card;
+        });
+        
+        // process transactions with optimal card calculation
+        const processedTransactions = userData.transactions.map(transaction => {
+          const usedCard = cardMap[transaction.card_id];
+
+          const userCardIds = userData.cards.map(c => c.card_id);
+          const userOwnedCards = allCards.filter(card => userCardIds.includes(card.id));
+          
+          // find optimal card for this transaction from user's cards only
+          let optimalCard = null;
+          let maxRewards = 0;
+          
+          userOwnedCards.forEach(card => {
+            const rewardCategory = card.rewards.categories.find(
+              cat => cat.name === transaction.category
+            );
+            const rate = rewardCategory ? rewardCategory.rate : card.rewards.base_rate;
+            const rewards = transaction.amount * rate;
+            
+            if (rewards > maxRewards) {
+              maxRewards = rewards;
+              optimalCard = card;
+            }
+          });
+          
+          // calc rewards for used card
+          const usedRewardCategory = usedCard?.rewards.categories.find(
+            cat => cat.name === transaction.category
+          );
+          const usedRate = usedRewardCategory ? usedRewardCategory.rate : (usedCard?.rewards.base_rate || 1);
+          const usedRewards = transaction.amount * usedRate;
+          
+          const isOptimal = usedCard?.id === optimalCard?.id;
+          
+          return {
+            ...transaction,
+            cardUsed: usedCard?.name || transaction.card_id,
+            optimalCard: optimalCard?.name || '—',
+            status: isOptimal ? 'Optimal' : 'Suboptimal',
+            missedRewards: maxRewards - usedRewards
+          };
+        });
+        // sort transactions by date descending
+        processedTransactions.sort((a, b) => new Date(b.date) - new Date(a.date));
+        
+        setTransactions(processedTransactions);
       } catch (err) {
         console.error("Failed to fetch transactions:", err);
         setTransactions([]);
@@ -89,20 +143,16 @@ export default function TransactionsTable({ userId }) {
               <td className="py-3 px-4 text-sm text-gray-900">{transaction.merchant}</td>
               <td className="py-3 px-4 text-sm text-gray-700">{transaction.category}</td>
               <td className="py-3 px-4 text-sm text-gray-900 text-right">${transaction.amount.toFixed(2)}</td>
-              <td className="py-3 px-4 text-sm text-gray-700">{transaction.cardUsed || '—'}</td>
-              <td className="py-3 px-4 text-sm text-gray-700">{transaction.optimalCard || '—'}</td>
+              <td className="py-3 px-4 text-sm text-gray-700">{transaction.cardUsed}</td>
+              <td className="py-3 px-4 text-sm text-gray-700">{transaction.optimalCard}</td>
               <td className="py-3 px-4">
-                {transaction.status ? (
-                  <span className={`text-xs px-2 py-1 rounded-full ${
-                    transaction.status === 'Optimal'
-                      ? 'bg-green-100 text-green-700'
-                      : 'bg-yellow-100 text-yellow-700'
-                  }`}>
-                    {transaction.status}
-                  </span>
-                ) : (
-                  <span className="text-sm text-gray-700">—</span>
-                )}
+                <span className={`text-xs px-2 py-1 rounded-full ${
+                  transaction.status === 'Optimal'
+                    ? 'bg-green-100 text-green-700'
+                    : 'bg-yellow-100 text-yellow-700'
+                }`}>
+                  {transaction.status}
+                </span>
               </td>
             </tr>
           ))}

@@ -1,8 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { useState } from "react";
-import transactions from "../../data";
+import { useState, useEffect } from "react";
 import TransactionsTable from "./components/TransactionsTable";
 import CreditOption from "./components/CreditOption";
 
@@ -11,19 +10,117 @@ export default function Home() {
   const [purchaseType, setPurchaseType] = useState('Select');
   const [amount, setAmount] = useState('');
   const [showRecommendation, setShowRecommendation] = useState(false);
+  const [userCards, setUserCards] = useState([]);
+  const [availableCredits, setAvailableCredits] = useState([]);
+  const [recommendedCard, setRecommendedCard] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  const categories = ['dining', 'groceries', 'travel', 'gas', 'streaming', 'other'];
+  const userId = "user01";
+  const categories = ['dining', 'groceries', 'travel', 'gas', 'streaming', 'flights', 'hotels', 'transit'];
 
-  const handleCardSelection = () => {
-    setShowRecommendation(true);
+  useEffect(() => {
+    if (showCardRecommendation) {
+      fetchUserCards();
+    } else {
+      // clear credits when hiding the recommendation panel to reload for new user
+      setAvailableCredits([]);
+    }
+  }, [showCardRecommendation]);
+
+  const fetchUserCards = async () => {
+    try {
+      const userRes = await fetch(`http://localhost:8000/api/users/${userId}`);
+      const userData = await userRes.json();
+      
+      const cardsRes = await fetch('http://localhost:8000/api/cards');
+      const cardsData = await cardsRes.json();
+      const allCards = Array.isArray(cardsData) ? cardsData : (cardsData.cards || []);
+      
+      const userCardIds = userData.cards.map(c => c.card_id);
+      const userCardDetails = allCards.filter(card => userCardIds.includes(card.id));
+      
+      setUserCards(userCardDetails);
+      
+      // extract all available credits from user's cards
+      const credits = [];
+      userCardDetails.forEach(card => {
+        if (card.credits && card.credits.length > 0) {
+          card.credits.forEach(credit => {
+            credits.push({
+              ...credit,
+              cardName: card.name,
+              cardId: card.id
+            });
+          });
+        }
+      });
+      setAvailableCredits(credits);
+    } catch (err) {
+      console.error("Failed to fetch user cards:", err);
+    }
+  };
+
+  const handleGetRecommendation = async () => {
+    setLoading(true);
+    try {
+      // build query parameters for GET request
+      const params = new URLSearchParams({
+        user_id: userId,
+        category: purchaseType,
+        amount: amount.toString()
+      });
+      
+      console.log('Sending recommendation request:', { userId, purchaseType, amount });
+      
+      const response = await fetch(`http://localhost:8000/api/recommendations/transaction?${params}`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('API error response:', errorText);
+        throw new Error(`API returned ${response.status}: ${errorText}`);
+      }
+
+      const data = await response.json();
+      console.log('Recommendation response:', data);
+      console.log('Recommended card ID:', data.recommended_card_id);
+      
+      const cardsRes = await fetch('http://localhost:8000/api/cards');
+      const cardsData = await cardsRes.json();
+      const allCards = Array.isArray(cardsData) ? cardsData : (cardsData.cards || []);
+      
+      const recommendedCardDetails = allCards.find(card => card.id === data.recommended_card_id);
+      
+      if (recommendedCardDetails) {
+        setRecommendedCard({
+          ...recommendedCardDetails,
+          rewards_earned: data.rewards_earned || 0,
+          reason: data.reason || `Best card for ${purchaseType}`
+        });
+        setShowRecommendation(true);
+      } else {
+        console.error('Recommended card not found. Card ID:', data.recommended_card_id);
+        console.error('Available cards:', allCards.map(c => c.id));
+        alert(`Could not find recommended card with ID: ${data.recommended_card_id}`);
+      }
+    } catch (err) {
+      console.error("Failed to get recommendation:", err);
+      alert(`Error: ${err.message}`);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const toggleCardRecommendation = () => {
     if (showCardRecommendation) {
-      // reset form when closing
       setPurchaseType('Select');
       setAmount('');
       setShowRecommendation(false);
+      setRecommendedCard(null);
     }
     setShowCardRecommendation(!showCardRecommendation);
   };
@@ -57,21 +154,11 @@ export default function Home() {
           </div>
           <div className="flex gap-6 mt-4 text-sm text-gray-600">
             <div className="flex items-center gap-2">
-              <Image
-                src="/lock.png"
-                alt="Security"
-                width={12}
-                height={12}
-              />
+              <Image src="/lock.png" alt="Security" width={12} height={12} />
               <span>Bank-level encryption</span>
             </div>
             <div className="flex items-center gap-2">
-              <Image
-                src="/eye.png"
-                alt="Privacy"
-                width={16}
-                height={16}
-              />
+              <Image src="/eye.png" alt="Privacy" width={16} height={16} />
               <span>Read-only access</span>
             </div>
           </div>
@@ -80,7 +167,7 @@ export default function Home() {
 
       <section>
         <div className="mt-6 bg-white px-6 py-8 rounded-lg">
-          <TransactionsTable userId="demo-user" />
+          <TransactionsTable userId={userId} />
         </div>
       </section>
 
@@ -89,20 +176,14 @@ export default function Home() {
           onClick={toggleCardRecommendation}
           className="relative mt-6 bg-red-600 z-10 text-white px-6 py-4 rounded-3xl flex items-center gap-3 cursor-pointer hover:bg-red-700 transition-colors"
         >
-          <Image
-            src="/card.png"
-            alt="Card"
-            width={24}
-            height={24}
-            className="invert"
-          />
+          <Image src="/card.png" alt="Card" width={24} height={24} className="invert" />
           <span>What card should I use?</span>
         </button>
 
         {showCardRecommendation && (
           <div className="-mt-7 bg-white px-6 pt-12 pb-8 rounded-lg">
             <div className="flex gap-6">
-              <form className="space-y-4 flex-1">
+              <form className="space-y-4 flex-1 min-w-[400px]">
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
                     Type of Purchase
@@ -139,40 +220,53 @@ export default function Home() {
 
                 {purchaseType !== 'Select' && amount !== '' && (
                   <div className="mt-6">
-                    <p className="text-gray-700 mb-3">Would you like to use an existing credit card?</p>
-                    <div className="flex gap-3">
-                      <div className="flex flex-col gap-3">
-                        <div onClick={handleCardSelection} className="cursor-pointer">
-                          <CreditOption />
-                        </div>
-                        <button
-                          type="button"
-                          onClick={handleCardSelection}
-                          className="px-4 py-2 bg-black w-1/2 cursor-pointer text-white rounded-lg hover:bg-gray-800"
-                        >
-                          No
-                        </button>
-                      </div>
+                    <p className="text-gray-700 mb-3">Would you like to use a credit option?</p>
+                    <div className="flex flex-col gap-3">
+                      {availableCredits.length > 0 ? (
+                        availableCredits.map((credit, index) => (
+                          <div 
+                            key={index}
+                          >
+                            <CreditOption 
+                              creditName={credit.name}
+                              cardName={credit.cardName}
+                              amount={credit.amount}
+                            />
+                          </div>
+                        ))
+                      ) : (
+                        <p className="text-sm text-gray-500">No credit options available from your cards</p>
+                      )}
+                      <button
+                        type="button"
+                        onClick={handleGetRecommendation}
+                        disabled={loading}
+                        className="px-4 py-2 bg-black w-70 cursor-pointer text-white rounded-lg hover:bg-gray-800 disabled:opacity-50"
+                      >
+                        {loading ? 'Loading...' : 'No, show me the best card'}
+                      </button>
                     </div>
                   </div>
                 )}
               </form>
 
-              {showRecommendation && (
-                <div className="w-165">
-                  <h2 className="text-lg text-black">Recommended Card</h2>
+              {showRecommendation && recommendedCard && !loading && (
+                <div className="w-165 ml-4 pl-6">
+                  <h2 className="text-xl text-black">Recommended Card</h2>
                   <div className="flex">
                     <Image
-                      src="/chase-sapphire-p.jpg"
-                      alt="Recommended Card"
+                      src={`/${recommendedCard.id}.jpg`}
+                      alt={recommendedCard.name}
                       width={360}
                       height={200}
-                      className="mt-4"
+                      className="rounded-lg pt-5"
                     />
                     <section className="p-6">
-                      <h3 className="text-black">Chase Sapphire Preferred</h3>
-                      <p className="text-gray-600">Travel Rewards Rate: 5</p>
-                      <p className="text-gray-600 mt-9">Earn 3500 Rewards Points</p>
+                      <h3 className="text-black">{recommendedCard.name}</h3>
+                      <p className="text-gray-600">{recommendedCard.reason}</p>
+                      <p className="text-gray-600 mt-9">
+                        Earn {(recommendedCard.rewards_earned || 0).toFixed(2)} Rewards Points
+                      </p>
                     </section>
                   </div>
                 </div>

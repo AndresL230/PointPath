@@ -20,7 +20,7 @@ export default function Home() {
   const [recommendedCard, setRecommendedCard] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const userId = "user01";
+  const userId = "user02";
   const categories = ['dining', 'groceries', 'travel', 'gas', 'streaming', 'flights', 'hotels', 'transit'];
 
   useEffect(() => {

@@ -186,4 +186,4 @@ ANTHROPIC_API_KEY=your_api_key_here
 
 ## License
 
-Copyright (c) 2026
+Copyright (c) 2026 Andres Lopez, Caleb Abrantes. Shriya Nichenmetia, Jy'Mir Fuller

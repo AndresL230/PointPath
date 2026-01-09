@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 export default function Chat() {
-    const userId = "demo-user";
+    const userId = "user01";
 
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState("");

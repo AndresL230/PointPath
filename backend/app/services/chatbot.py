@@ -48,7 +48,8 @@ Guidelines:
         self,
         user_id: str,
         message: str,
-        history: Optional[List[dict]] = None
+        history: Optional[List[dict]] = None,
+        user_context: Optional[dict] = None
     ) -> str:
         if not self.client:
             return (
@@ -57,6 +58,12 @@ Guidelines:
             )
 
         try:
+            # Build enhanced system prompt with user context
+            system_prompt = self.system_prompt
+            if user_context:
+                context_info = self._format_user_context(user_context)
+                system_prompt = f"{self.system_prompt}\n\n{context_info}"
+
             # Build messages list
             messages = []
 
@@ -74,13 +81,40 @@ Guidelines:
             response = self.client.messages.create(
                 model="claude-3-5-haiku-20241022",
                 max_tokens=1024,
-                system=self.system_prompt,
+                system=system_prompt,
                 messages=messages
             )
 
             return response.content[0].text
         except Exception as e:
             return f"Error communicating with chatbot: {str(e)}"
+
+    def _format_user_context(self, context: dict) -> str:
+        """Format user context into a readable string for the AI."""
+        parts = ["## Current User Context"]
+
+        # Cards information
+        if context.get("cards"):
+            parts.append("\n### User's Credit Cards:")
+            for card in context["cards"]:
+                parts.append(f"- {card['name']} (Issuer: {card['issuer']})")
+                parts.append(f"  - Base rate: {card['base_rate']}x")
+                if card.get("categories"):
+                    parts.append(f"  - Bonus categories: {', '.join(card['categories'])}")
+
+        # Spending summary
+        if context.get("spending_summary"):
+            spending = context["spending_summary"]
+            parts.append("\n### Spending Summary:")
+            parts.append(f"- Total spent: ${spending.get('total_spent', 0):.2f}")
+            if spending.get("top_categories"):
+                parts.append(f"- Top spending categories: {', '.join(spending['top_categories'])}")
+
+        # Transaction count
+        if context.get("transaction_count"):
+            parts.append(f"\n### Transaction History: {context['transaction_count']} transactions")
+
+        return "\n".join(parts)
 
 
 chatbot_service = ChatbotService()
